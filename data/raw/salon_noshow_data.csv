@@ -1,0 +1,1001 @@
+Cancel Date,Client code,Service,Service Price,Staff,Booking Date,Canceled By,Cancel Description,Days
+2024-09-18,CUST788,HAIRSTYLING,25,Sarah Wilson,2024-09-18,Amit Patel,Double-booked,0
+2024-05-08,CUST367,PEDICURE,30,Priya Sharma,2023-12-04,Li Wei,Rescheduled,156
+2024-05-05,CUST317,SKINCARE,80,Kunal Joshi,2024-03-07,Yuki Tanaka,Service issue,59
+2024-07-14,CUST363,SPATREATMENT,55,Priya Sharma,2024-05-18,Amit Patel,Staff unavailable,57
+2024-10-07,CUST265,WAXING,40,Sarah Wilson,2024-10-07,Priya Sharma,Staff unavailable,0
+2024-04-19,CUST164,SKINCARE,70,Kunal Joshi,2023-11-06,Sarah Wilson,Service issue,165
+2024-09-20,CUST645,MASSAGE,35,John Doe,2024-09-20,Michael Brown,Emergency closure,0
+2024-03-16,CUST755,HAIRSTYLING,30,Jane Smith,2024-03-03,Anjali Singh,Service issue,13
+2024-03-21,CUST002,BODYSCRUB,70,Sofia Chen,2024-03-21,Priya Sharma,Staff unavailable,0
+2024-08-15,CUST554,MANICURE,30,Kunal Joshi,2024-02-28,Yuki Tanaka,Double-booked,169
+2024-09-23,CUST853,HAIRSTYLING,45,Takeshi Yamada,2024-05-20,John Doe,Client no-show,126
+2024-06-28,CUST187,SPATREATMENT,40,Kunal Joshi,2024-06-28,Anjali Singh,Client no-show,0
+2023-12-18,CUST213,SPATREATMENT,35,Emily Davis,2023-12-18,Amit Patel,Service issue,0
+2024-10-07,CUST121,WAXING,80,Anjali Singh,2024-06-10,Jane Smith,Client canceled,119
+2024-08-21,CUST864,MASSAGE,60,Emily Davis,2024-08-21,Kunal Joshi,Service issue,0
+2024-03-09,CUST196,PEDICURE,100,Sofia Chen,2024-03-09,Emily Davis,Emergency closure,0
+2024-04-04,CUST843,WAXING,80,Sofia Chen,2024-03-18,Takeshi Yamada,Service issue,17
+2024-03-25,CUST271,WAXING,60,Jane Smith,2024-03-18,Sofia Chen,Client no-show,7
+2024-06-29,CUST166,MANICURE,55,Sofia Chen,2024-01-18,Anjali Singh,Staff unavailable,163
+2024-05-11,CUST131,HAIRCOLOR,85,Li Wei,2023-12-06,Takeshi Yamada,Service issue,157
+2024-04-12,CUST447,MASSAGE,120,Kunal Joshi,2023-12-19,Takeshi Yamada,Staff unavailable,115
+2024-07-05,CUST342,FACIAL,120,Kunal Joshi,2023-11-22,Amit Patel,Staff unavailable,226
+2024-07-10,CUST097,WAXING,120,John Doe,2024-02-22,Emily Davis,Client canceled,139
+2024-05-15,CUST419,NAILART,25,Amit Patel,2024-04-26,Ravi Kumar,Staff unavailable,19
+2024-06-24,CUST692,MAKEUP,15,Sofia Chen,2024-04-20,Michael Brown,Client no-show,65
+2024-08-12,CUST745,HAIRCOLOR,50,Emily Davis,2024-07-05,Takeshi Yamada,Double-booked,38
+2024-05-28,CUST158,FACIAL,50,Sofia Chen,2024-05-28,Mei Ling,Double-booked,0
+2024-07-19,CUST136,NAILART,120,Priya Sharma,2024-02-29,Yuki Tanaka,Rescheduled,141
+2024-06-28,CUST348,MASSAGE,100,John Doe,2024-06-28,Sarah Wilson,Emergency closure,0
+2024-01-11,CUST920,HAIRCUT,35,Li Wei,2023-12-06,Emily Davis,Service issue,36
+2024-08-09,CUST135,NAILART,40,Li Wei,2024-08-09,Jane Smith,Emergency closure,0
+2024-08-16,CUST016,BODYSCRUB,35,Mei Ling,2024-03-25,Li Wei,Client no-show,144
+2024-02-22,CUST123,HAIRCOLOR,40,Kunal Joshi,2024-02-22,Jane Smith,Staff unavailable,0
+2024-10-23,CUST351,SKINCARE,35,Li Wei,2024-10-23,Emily Davis,Double-booked,0
+2024-02-09,CUST415,NAILART,15,Kunal Joshi,2024-01-28,Jane Smith,Emergency closure,12
+2023-11-08,CUST076,EYEBROWTHREADING,25,Mei Ling,2023-11-05,Takeshi Yamada,Client no-show,3
+2024-10-13,CUST124,HAIRCUT,25,Sarah Wilson,2023-12-12,Michael Brown,Double-booked,306
+2024-06-02,CUST837,SPATREATMENT,120,Anjali Singh,2024-02-28,Jane Smith,Staff unavailable,95
+2024-10-06,CUST917,SPATREATMENT,55,Michael Brown,2024-10-06,Anjali Singh,Emergency closure,0
+2024-10-15,CUST491,BODYSCRUB,60,Yuki Tanaka,2024-10-15,Mei Ling,Double-booked,0
+2024-04-08,CUST199,NAILART,55,Li Wei,2024-04-08,Jane Smith,Service issue,0
+2024-02-21,CUST621,NAILART,70,Amit Patel,2024-02-21,Mei Ling,Service issue,0
+2024-02-21,CUST868,MAKEUP,25,Priya Sharma,2023-10-31,Kunal Joshi,Rescheduled,113
+2024-01-04,CUST392,MAKEUP,25,Ravi Kumar,2023-11-25,Amit Patel,Rescheduled,40
+2024-08-10,CUST394,MAKEUP,80,Sarah Wilson,2023-10-24,John Doe,Double-booked,291
+2024-08-05,CUST002,MANICURE,80,Li Wei,2024-01-03,Michael Brown,Client no-show,215
+2024-04-04,CUST172,NAILART,60,Kunal Joshi,2024-01-19,Yuki Tanaka,Service issue,76
+2024-05-25,CUST588,HAIRSTYLING,45,Anjali Singh,2024-02-23,Takeshi Yamada,Client no-show,92
+2024-08-29,CUST322,PEDICURE,70,Mei Ling,2024-08-16,John Doe,Client no-show,13
+2024-04-13,CUST273,EYEBROWTHREADING,55,Emily Davis,2024-04-13,Takeshi Yamada,Double-booked,0
+2024-08-13,CUST321,MANICURE,100,Yuki Tanaka,2024-03-25,Amit Patel,Client no-show,141
+2024-03-12,CUST231,MASSAGE,80,Ravi Kumar,2023-11-20,Takeshi Yamada,Service issue,113
+2024-08-09,CUST633,MANICURE,100,Anjali Singh,2024-06-06,Kunal Joshi,Staff unavailable,64
+2024-10-04,CUST186,HAIRSTYLING,30,Anjali Singh,2024-03-26,Michael Brown,Rescheduled,192
+2024-04-06,CUST328,MASSAGE,80,Li Wei,2023-11-30,Emily Davis,Staff unavailable,128
+2024-10-09,CUST932,EYEBROWTHREADING,15,Sarah Wilson,2024-09-04,Emily Davis,Client no-show,35
+2024-07-13,CUST315,HAIRSTYLING,45,Takeshi Yamada,2023-10-25,Mei Ling,Staff unavailable,262
+2024-02-26,CUST464,FACIAL,70,Ravi Kumar,2024-02-26,Amit Patel,Service issue,0
+2024-05-09,CUST468,PEDICURE,85,Yuki Tanaka,2024-03-10,Mei Ling,Service issue,60
+2024-04-27,CUST026,EYEBROWTHREADING,60,Jane Smith,2024-04-27,Kunal Joshi,Client no-show,0
+2024-01-22,CUST848,NAILART,30,Michael Brown,2024-01-16,Sarah Wilson,Double-booked,6
+2024-08-20,CUST587,MAKEUP,85,Jane Smith,2024-08-20,Jane Smith,Staff unavailable,0
+2024-07-25,CUST809,FACIAL,70,Takeshi Yamada,2024-07-25,Sofia Chen,Double-booked,0
+2024-10-02,CUST704,BODYSCRUB,55,Kunal Joshi,2024-10-02,Sarah Wilson,Double-booked,0
+2024-07-16,CUST245,EYEBROWTHREADING,120,Kunal Joshi,2023-10-25,Jane Smith,Client canceled,265
+2024-09-28,CUST934,BODYSCRUB,15,Priya Sharma,2024-05-17,Michael Brown,Client no-show,134
+2024-10-21,CUST527,MASSAGE,70,Ravi Kumar,2024-04-07,Mei Ling,Rescheduled,197
+2024-08-25,CUST637,FACIAL,15,Jane Smith,2024-08-25,Yuki Tanaka,Service issue,0
+2024-05-17,CUST895,PEDICURE,15,Kunal Joshi,2024-05-17,Michael Brown,Service issue,0
+2024-03-23,CUST902,NAILART,100,Takeshi Yamada,2024-03-23,Kunal Joshi,Client no-show,0
+2024-08-17,CUST166,NAILART,35,Li Wei,2024-08-17,Priya Sharma,Emergency closure,0
+2023-12-20,CUST264,HAIRSTYLING,85,John Doe,2023-12-20,Priya Sharma,Emergency closure,0
+2024-02-07,CUST783,NAILART,120,Mei Ling,2024-02-07,Priya Sharma,Emergency closure,0
+2024-09-10,CUST949,SKINCARE,55,John Doe,2024-07-10,Kunal Joshi,Rescheduled,62
+2024-08-02,CUST862,WAXING,30,Sofia Chen,2024-08-02,Yuki Tanaka,Service issue,0
+2024-04-21,CUST355,MANICURE,70,Yuki Tanaka,2023-12-10,Takeshi Yamada,Client no-show,133
+2024-08-04,CUST344,MAKEUP,40,Jane Smith,2024-06-09,Michael Brown,Service issue,56
+2024-08-28,CUST194,HAIRCUT,30,Priya Sharma,2024-08-16,Jane Smith,Double-booked,12
+2024-03-28,CUST063,PEDICURE,35,Sofia Chen,2024-03-28,Kunal Joshi,Staff unavailable,0
+2024-10-21,CUST644,FACIAL,30,Kunal Joshi,2024-10-21,Priya Sharma,Staff unavailable,0
+2024-01-08,CUST353,WAXING,25,Emily Davis,2024-01-04,Yuki Tanaka,Service issue,4
+2024-09-26,CUST141,PEDICURE,55,Amit Patel,2024-09-26,Amit Patel,Client canceled,0
+2024-04-13,CUST708,FACIAL,40,Emily Davis,2024-01-04,Kunal Joshi,Rescheduled,100
+2024-03-16,CUST497,MAKEUP,35,Takeshi Yamada,2024-03-16,Li Wei,Emergency closure,0
+2024-01-05,CUST339,HAIRCOLOR,100,Ravi Kumar,2024-01-05,Takeshi Yamada,Rescheduled,0
+2024-03-21,CUST845,HAIRCOLOR,85,Anjali Singh,2024-03-21,Jane Smith,Rescheduled,0
+2024-05-24,CUST296,BODYSCRUB,70,Mei Ling,2024-05-24,Priya Sharma,Double-booked,0
+2024-01-19,CUST556,PEDICURE,45,Jane Smith,2024-01-19,Ravi Kumar,Rescheduled,0
+2024-06-29,CUST859,HAIRCOLOR,50,Yuki Tanaka,2024-01-31,Emily Davis,Staff unavailable,150
+2024-08-21,CUST651,SKINCARE,85,Priya Sharma,2024-08-21,Yuki Tanaka,Double-booked,0
+2024-10-22,CUST024,FACIAL,35,Priya Sharma,2024-04-26,Emily Davis,Client no-show,179
+2024-07-28,CUST487,BODYSCRUB,60,Yuki Tanaka,2024-07-21,Sarah Wilson,Rescheduled,7
+2024-06-24,CUST898,NAILART,55,Takeshi Yamada,2024-06-24,Emily Davis,Rescheduled,0
+2024-08-04,CUST410,FACIAL,70,Sarah Wilson,2024-08-04,Jane Smith,Client no-show,0
+2024-07-04,CUST914,BODYSCRUB,85,Kunal Joshi,2024-05-04,Anjali Singh,Rescheduled,61
+2024-06-21,CUST508,MAKEUP,120,Amit Patel,2024-06-21,Mei Ling,Client no-show,0
+2024-05-03,CUST950,PEDICURE,35,Michael Brown,2024-05-03,Jane Smith,Double-booked,0
+2024-06-21,CUST969,MAKEUP,25,Michael Brown,2023-11-01,Takeshi Yamada,Staff unavailable,233
+2024-04-02,CUST100,WAXING,50,Michael Brown,2024-02-20,Li Wei,Client no-show,42
+2024-02-01,CUST079,MAKEUP,25,Jane Smith,2024-01-01,Jane Smith,Client canceled,31
+2024-05-17,CUST695,HAIRSTYLING,50,Michael Brown,2024-05-17,Kunal Joshi,Client no-show,0
+2024-07-12,CUST397,NAILART,85,Li Wei,2024-03-13,Yuki Tanaka,Rescheduled,121
+2024-05-07,CUST794,EYEBROWTHREADING,120,John Doe,2024-05-07,Sofia Chen,Emergency closure,0
+2024-02-08,CUST997,MAKEUP,45,Priya Sharma,2023-12-05,Yuki Tanaka,Emergency closure,65
+2024-04-08,CUST929,WAXING,55,Amit Patel,2024-04-08,Mei Ling,Double-booked,0
+2024-05-27,CUST384,MASSAGE,60,John Doe,2024-03-30,Ravi Kumar,Service issue,58
+2024-05-10,CUST248,SKINCARE,70,Anjali Singh,2024-04-10,Emily Davis,Double-booked,30
+2024-06-15,CUST810,FACIAL,100,Amit Patel,2024-02-20,Mei Ling,Service issue,116
+2024-09-29,CUST074,MASSAGE,25,John Doe,2024-09-29,Emily Davis,Emergency closure,0
+2024-04-03,CUST645,WAXING,25,Amit Patel,2024-04-03,Sarah Wilson,Emergency closure,0
+2024-06-23,CUST147,BODYSCRUB,15,Anjali Singh,2024-06-23,Mei Ling,Client no-show,0
+2024-05-21,CUST417,EYEBROWTHREADING,50,Sofia Chen,2024-05-21,Priya Sharma,Staff unavailable,0
+2024-09-19,CUST414,NAILART,80,Li Wei,2024-09-19,Takeshi Yamada,Client canceled,0
+2024-09-09,CUST869,NAILART,45,Jane Smith,2024-09-09,Takeshi Yamada,Double-booked,0
+2024-10-11,CUST955,NAILART,70,Jane Smith,2024-04-10,Emily Davis,Rescheduled,184
+2024-02-02,CUST840,SKINCARE,50,Takeshi Yamada,2024-01-14,Ravi Kumar,Service issue,19
+2024-06-26,CUST326,EYEBROWTHREADING,15,Yuki Tanaka,2023-12-23,Priya Sharma,Rescheduled,186
+2024-09-23,CUST340,SKINCARE,30,Kunal Joshi,2024-09-23,John Doe,Staff unavailable,0
+2024-09-15,CUST844,SKINCARE,50,Priya Sharma,2024-08-17,Michael Brown,Service issue,29
+2024-06-13,CUST645,HAIRCUT,100,Michael Brown,2024-06-13,Michael Brown,Double-booked,0
+2024-09-27,CUST669,EYEBROWTHREADING,70,Li Wei,2024-03-09,Ravi Kumar,Client no-show,202
+2024-06-01,CUST528,HAIRSTYLING,85,Emily Davis,2024-06-01,Sofia Chen,Rescheduled,0
+2024-04-20,CUST910,EYEBROWTHREADING,45,Michael Brown,2024-02-27,John Doe,Staff unavailable,53
+2024-04-17,CUST016,WAXING,15,Kunal Joshi,2024-04-17,Sarah Wilson,Double-booked,0
+2024-08-09,CUST125,HAIRCUT,30,Priya Sharma,2024-04-07,Ravi Kumar,Emergency closure,124
+2024-08-27,CUST536,NAILART,55,Ravi Kumar,2024-03-05,Priya Sharma,Emergency closure,175
+2024-04-11,CUST424,WAXING,40,Kunal Joshi,2024-04-11,Michael Brown,Double-booked,0
+2024-10-04,CUST811,WAXING,15,Li Wei,2024-01-31,Kunal Joshi,Double-booked,247
+2024-03-30,CUST986,SPATREATMENT,40,John Doe,2024-01-19,Michael Brown,Double-booked,71
+2024-07-11,CUST108,MANICURE,70,Amit Patel,2024-01-02,Michael Brown,Service issue,191
+2024-04-08,CUST558,HAIRCUT,25,Yuki Tanaka,2023-12-11,Priya Sharma,Double-booked,119
+2024-06-05,CUST597,WAXING,15,Yuki Tanaka,2024-06-05,Amit Patel,Rescheduled,0
+2024-10-21,CUST513,MANICURE,55,Emily Davis,2024-05-25,Ravi Kumar,Staff unavailable,149
+2024-03-10,CUST100,MANICURE,60,Li Wei,2024-03-10,Jane Smith,Service issue,0
+2024-02-14,CUST229,HAIRCUT,40,Anjali Singh,2023-11-03,Yuki Tanaka,Double-booked,103
+2024-04-02,CUST355,SPATREATMENT,100,Ravi Kumar,2024-04-02,Sarah Wilson,Client canceled,0
+2024-08-05,CUST994,MASSAGE,60,Anjali Singh,2024-08-05,Michael Brown,Client canceled,0
+2024-08-09,CUST385,BODYSCRUB,35,Jane Smith,2024-08-09,Yuki Tanaka,Staff unavailable,0
+2024-09-29,CUST981,HAIRSTYLING,35,Takeshi Yamada,2024-09-29,Takeshi Yamada,Emergency closure,0
+2024-02-25,CUST085,BODYSCRUB,30,Jane Smith,2023-12-19,Kunal Joshi,Client no-show,68
+2024-03-05,CUST612,EYEBROWTHREADING,45,Kunal Joshi,2023-12-21,Emily Davis,Client no-show,75
+2024-10-11,CUST551,NAILART,25,Michael Brown,2024-10-11,Ravi Kumar,Emergency closure,0
+2024-03-01,CUST441,HAIRSTYLING,70,John Doe,2023-12-17,Li Wei,Service issue,75
+2024-07-15,CUST552,EYEBROWTHREADING,15,Emily Davis,2024-07-15,Priya Sharma,Service issue,0
+2024-08-10,CUST563,WAXING,80,Kunal Joshi,2024-06-12,Amit Patel,Service issue,59
+2024-04-29,CUST958,NAILART,100,Mei Ling,2023-12-09,Takeshi Yamada,Client no-show,142
+2024-10-05,CUST481,FACIAL,40,Ravi Kumar,2024-01-04,Ravi Kumar,Client canceled,275
+2024-08-17,CUST008,HAIRCUT,70,Yuki Tanaka,2023-11-02,Sarah Wilson,Client no-show,289
+2024-07-24,CUST066,HAIRSTYLING,60,Ravi Kumar,2024-07-24,Kunal Joshi,Rescheduled,0
+2024-07-24,CUST736,HAIRSTYLING,120,Kunal Joshi,2024-03-01,Amit Patel,Double-booked,145
+2024-07-27,CUST952,MAKEUP,35,Kunal Joshi,2024-05-14,Sarah Wilson,Service issue,74
+2024-09-20,CUST332,WAXING,120,Li Wei,2024-09-20,Takeshi Yamada,Client canceled,0
+2024-03-09,CUST975,MASSAGE,55,Michael Brown,2023-11-24,Ravi Kumar,Staff unavailable,106
+2024-05-29,CUST981,MANICURE,100,Jane Smith,2024-01-10,Jane Smith,Staff unavailable,140
+2024-09-07,CUST035,NAILART,80,Yuki Tanaka,2024-06-26,Takeshi Yamada,Double-booked,73
+2024-06-25,CUST150,WAXING,15,Takeshi Yamada,2024-06-25,Li Wei,Client canceled,0
+2024-08-30,CUST048,HAIRCOLOR,30,Michael Brown,2024-07-17,Sarah Wilson,Client no-show,44
+2024-08-01,CUST847,SPATREATMENT,80,Amit Patel,2024-06-07,Amit Patel,Client no-show,55
+2024-08-31,CUST340,MANICURE,100,Li Wei,2024-08-31,Amit Patel,Rescheduled,0
+2024-03-30,CUST528,HAIRCUT,80,Li Wei,2024-03-30,Yuki Tanaka,Rescheduled,0
+2024-05-09,CUST425,MANICURE,100,Emily Davis,2024-03-24,Sarah Wilson,Client no-show,46
+2024-07-24,CUST003,MASSAGE,100,John Doe,2024-06-09,Anjali Singh,Staff unavailable,45
+2024-06-11,CUST800,MAKEUP,50,Takeshi Yamada,2024-06-11,Ravi Kumar,Service issue,0
+2024-08-29,CUST457,MANICURE,40,Priya Sharma,2024-08-29,Anjali Singh,Staff unavailable,0
+2024-04-24,CUST929,HAIRCUT,85,Sofia Chen,2024-03-01,Sofia Chen,Rescheduled,54
+2024-09-14,CUST379,MASSAGE,120,Priya Sharma,2024-09-14,Ravi Kumar,Double-booked,0
+2024-07-15,CUST411,BODYSCRUB,85,Kunal Joshi,2024-07-15,Sarah Wilson,Client no-show,0
+2024-09-06,CUST185,HAIRSTYLING,85,Sarah Wilson,2024-09-06,John Doe,Rescheduled,0
+2024-09-15,CUST709,MAKEUP,85,Yuki Tanaka,2024-09-15,Kunal Joshi,Rescheduled,0
+2024-07-09,CUST018,HAIRSTYLING,35,Sarah Wilson,2024-07-09,Sarah Wilson,Service issue,0
+2024-06-13,CUST488,SPATREATMENT,50,Li Wei,2024-06-13,Anjali Singh,Client no-show,0
+2024-05-20,CUST998,EYEBROWTHREADING,15,Michael Brown,2023-12-08,Jane Smith,Service issue,164
+2024-08-18,CUST735,BODYSCRUB,50,Amit Patel,2024-07-27,Kunal Joshi,Client no-show,22
+2024-05-01,CUST411,BODYSCRUB,25,Emily Davis,2024-05-01,Sarah Wilson,Service issue,0
+2024-01-11,CUST116,NAILART,25,Mei Ling,2023-12-19,Sarah Wilson,Staff unavailable,23
+2024-07-30,CUST576,SKINCARE,35,Sarah Wilson,2024-07-30,Jane Smith,Double-booked,0
+2024-08-18,CUST485,MANICURE,80,Emily Davis,2024-01-01,Sarah Wilson,Double-booked,230
+2024-05-08,CUST360,HAIRSTYLING,40,Li Wei,2024-05-08,Kunal Joshi,Client no-show,0
+2024-05-22,CUST887,HAIRCUT,35,John Doe,2024-01-06,Michael Brown,Client canceled,137
+2024-09-15,CUST204,PEDICURE,100,Anjali Singh,2024-09-15,John Doe,Emergency closure,0
+2024-07-12,CUST865,SKINCARE,60,Priya Sharma,2024-07-12,Emily Davis,Rescheduled,0
+2024-05-01,CUST433,PEDICURE,40,Amit Patel,2024-01-17,John Doe,Rescheduled,105
+2024-08-10,CUST468,MAKEUP,45,Yuki Tanaka,2024-08-10,Priya Sharma,Client no-show,0
+2024-04-24,CUST061,MASSAGE,120,Jane Smith,2023-10-24,Li Wei,Service issue,183
+2024-05-29,CUST325,HAIRSTYLING,40,Kunal Joshi,2024-05-29,Yuki Tanaka,Client canceled,0
+2024-08-14,CUST489,HAIRSTYLING,100,Emily Davis,2023-12-26,Sarah Wilson,Staff unavailable,232
+2024-03-21,CUST512,SKINCARE,100,John Doe,2024-02-10,Michael Brown,Service issue,40
+2024-10-18,CUST499,SPATREATMENT,30,Mei Ling,2024-10-18,Ravi Kumar,Service issue,0
+2024-08-09,CUST904,SKINCARE,85,Sofia Chen,2024-07-29,Sarah Wilson,Client no-show,11
+2024-05-28,CUST529,PEDICURE,35,Priya Sharma,2023-11-09,Anjali Singh,Client no-show,201
+2024-08-09,CUST957,SKINCARE,100,Jane Smith,2024-08-09,Takeshi Yamada,Rescheduled,0
+2024-09-09,CUST930,HAIRSTYLING,25,Yuki Tanaka,2024-03-11,Michael Brown,Client no-show,182
+2024-08-18,CUST460,SPATREATMENT,85,Priya Sharma,2024-08-18,Jane Smith,Client no-show,0
+2024-04-18,CUST154,MANICURE,15,Li Wei,2024-04-18,Michael Brown,Client no-show,0
+2024-09-29,CUST945,HAIRCOLOR,60,Sofia Chen,2024-06-24,Priya Sharma,Rescheduled,97
+2024-09-12,CUST585,NAILART,120,Priya Sharma,2024-09-12,Jane Smith,Staff unavailable,0
+2024-01-19,CUST424,FACIAL,35,Takeshi Yamada,2024-01-02,Sofia Chen,Staff unavailable,17
+2024-01-11,CUST682,BODYSCRUB,70,Mei Ling,2023-12-04,Emily Davis,Emergency closure,38
+2024-10-19,CUST924,SKINCARE,25,John Doe,2024-10-19,Mei Ling,Emergency closure,0
+2024-08-30,CUST192,MAKEUP,55,Kunal Joshi,2024-06-12,Kunal Joshi,Client no-show,79
+2024-01-22,CUST985,EYEBROWTHREADING,45,Sarah Wilson,2024-01-22,Michael Brown,Emergency closure,0
+2024-08-06,CUST257,MASSAGE,80,Sofia Chen,2024-08-06,Kunal Joshi,Rescheduled,0
+2024-03-29,CUST105,HAIRCOLOR,100,Yuki Tanaka,2024-03-29,Amit Patel,Staff unavailable,0
+2024-03-13,CUST207,NAILART,70,Li Wei,2024-03-13,Anjali Singh,Service issue,0
+2024-05-30,CUST604,NAILART,100,Takeshi Yamada,2024-01-06,Sarah Wilson,Staff unavailable,145
+2024-06-04,CUST673,NAILART,40,Jane Smith,2024-02-15,Anjali Singh,Staff unavailable,110
+2024-10-17,CUST504,NAILART,25,Michael Brown,2024-10-05,Kunal Joshi,Rescheduled,12
+2024-05-14,CUST893,PEDICURE,40,Ravi Kumar,2023-11-03,John Doe,Emergency closure,193
+2024-05-17,CUST643,MAKEUP,30,Emily Davis,2023-11-24,Mei Ling,Service issue,175
+2024-10-06,CUST988,MAKEUP,40,Kunal Joshi,2023-12-01,John Doe,Rescheduled,310
+2024-08-21,CUST874,SPATREATMENT,30,Priya Sharma,2024-01-04,Sofia Chen,Client no-show,230
+2023-12-06,CUST560,BODYSCRUB,45,Sarah Wilson,2023-12-06,Mei Ling,Double-booked,0
+2024-10-23,CUST301,HAIRSTYLING,30,Sofia Chen,2024-05-04,Mei Ling,Staff unavailable,172
+2024-06-09,CUST415,NAILART,70,Priya Sharma,2024-06-09,John Doe,Double-booked,0
+2024-07-04,CUST549,EYEBROWTHREADING,85,Anjali Singh,2024-07-04,Jane Smith,Rescheduled,0
+2024-05-16,CUST208,HAIRSTYLING,100,Emily Davis,2024-05-16,Priya Sharma,Rescheduled,0
+2024-08-30,CUST151,MAKEUP,80,Michael Brown,2024-08-30,Kunal Joshi,Rescheduled,0
+2024-05-30,CUST898,HAIRCUT,85,Takeshi Yamada,2024-04-18,John Doe,Double-booked,42
+2024-06-16,CUST697,HAIRCUT,120,Yuki Tanaka,2024-06-16,Anjali Singh,Rescheduled,0
+2024-08-23,CUST087,EYEBROWTHREADING,40,Mei Ling,2024-08-23,Jane Smith,Client no-show,0
+2024-09-03,CUST359,SPATREATMENT,55,Takeshi Yamada,2024-09-03,Anjali Singh,Rescheduled,0
+2024-09-16,CUST068,MAKEUP,120,Takeshi Yamada,2024-09-16,Priya Sharma,Client canceled,0
+2024-05-24,CUST012,EYEBROWTHREADING,25,Ravi Kumar,2024-05-24,Sofia Chen,Emergency closure,0
+2024-10-05,CUST866,PEDICURE,30,John Doe,2024-10-05,Sarah Wilson,Double-booked,0
+2024-10-14,CUST441,SKINCARE,100,Takeshi Yamada,2024-10-14,Priya Sharma,Client canceled,0
+2024-09-14,CUST304,EYEBROWTHREADING,60,Priya Sharma,2023-12-12,Li Wei,Rescheduled,277
+2024-02-16,CUST274,MANICURE,35,Michael Brown,2024-02-16,Ravi Kumar,Client no-show,0
+2024-05-13,CUST290,HAIRSTYLING,70,Michael Brown,2023-11-16,Jane Smith,Staff unavailable,179
+2024-07-05,CUST610,HAIRCOLOR,80,Mei Ling,2024-03-03,Sofia Chen,Service issue,124
+2024-04-21,CUST649,WAXING,50,Amit Patel,2023-12-05,Li Wei,Emergency closure,138
+2024-08-16,CUST457,SPATREATMENT,70,Mei Ling,2024-08-16,Amit Patel,Service issue,0
+2024-08-17,CUST504,EYEBROWTHREADING,45,Priya Sharma,2024-08-17,Sofia Chen,Rescheduled,0
+2024-08-30,CUST567,MAKEUP,60,Yuki Tanaka,2024-06-30,John Doe,Emergency closure,61
+2024-08-18,CUST080,MASSAGE,55,Amit Patel,2024-01-28,Yuki Tanaka,Emergency closure,203
+2024-03-04,CUST387,HAIRCUT,35,Amit Patel,2023-12-01,John Doe,Client no-show,94
+2024-10-02,CUST160,MANICURE,60,Sarah Wilson,2024-10-02,Priya Sharma,Emergency closure,0
+2024-10-11,CUST581,BODYSCRUB,40,Sarah Wilson,2024-10-11,Ravi Kumar,Double-booked,0
+2024-07-23,CUST466,NAILART,30,Jane Smith,2024-07-23,Sofia Chen,Client canceled,0
+2024-09-09,CUST421,WAXING,80,Sofia Chen,2024-03-31,Kunal Joshi,Client canceled,162
+2023-12-27,CUST787,SPATREATMENT,15,Sofia Chen,2023-12-27,Emily Davis,Client canceled,0
+2024-06-09,CUST416,HAIRCOLOR,30,Li Wei,2024-06-09,Sarah Wilson,Double-booked,0
+2024-03-29,CUST924,WAXING,15,Kunal Joshi,2024-03-29,Priya Sharma,Service issue,0
+2024-07-08,CUST315,EYEBROWTHREADING,120,John Doe,2024-01-01,John Doe,Client no-show,189
+2024-07-27,CUST177,PEDICURE,35,Sofia Chen,2024-07-27,Ravi Kumar,Emergency closure,0
+2024-05-02,CUST193,HAIRCUT,100,Sarah Wilson,2024-05-02,Sarah Wilson,Double-booked,0
+2024-04-27,CUST334,MAKEUP,50,Jane Smith,2023-12-13,Sofia Chen,Client canceled,136
+2024-09-16,CUST251,HAIRCUT,25,Takeshi Yamada,2024-09-16,Kunal Joshi,Rescheduled,0
+2024-06-25,CUST007,BODYSCRUB,85,Jane Smith,2024-02-01,Sofia Chen,Staff unavailable,145
+2024-05-02,CUST418,PEDICURE,30,Takeshi Yamada,2024-05-02,Mei Ling,Emergency closure,0
+2024-08-03,CUST581,NAILART,80,Yuki Tanaka,2024-04-17,Ravi Kumar,Double-booked,108
+2024-07-06,CUST338,MAKEUP,85,Yuki Tanaka,2024-07-06,Li Wei,Double-booked,0
+2024-06-16,CUST884,HAIRSTYLING,45,Amit Patel,2024-01-27,John Doe,Client no-show,141
+2024-08-10,CUST796,FACIAL,45,Li Wei,2024-03-21,Kunal Joshi,Client no-show,142
+2024-07-23,CUST567,MANICURE,60,Kunal Joshi,2024-07-23,Emily Davis,Double-booked,0
+2024-08-13,CUST561,HAIRCUT,85,Mei Ling,2024-08-13,Sofia Chen,Client canceled,0
+2024-01-05,CUST254,MASSAGE,80,John Doe,2024-01-05,Emily Davis,Staff unavailable,0
+2024-05-03,CUST344,HAIRCUT,35,Priya Sharma,2024-05-03,Sofia Chen,Emergency closure,0
+2024-05-03,CUST398,WAXING,120,Amit Patel,2024-02-21,John Doe,Client no-show,72
+2024-05-24,CUST573,HAIRCUT,15,Mei Ling,2024-05-24,Sarah Wilson,Emergency closure,0
+2024-04-03,CUST599,SPATREATMENT,60,Sofia Chen,2024-02-20,Michael Brown,Client canceled,43
+2024-06-11,CUST052,HAIRCUT,45,Li Wei,2024-02-16,Sarah Wilson,Emergency closure,116
+2024-07-15,CUST952,FACIAL,25,Amit Patel,2024-07-15,Sofia Chen,Rescheduled,0
+2024-10-04,CUST360,FACIAL,25,Emily Davis,2024-10-04,Anjali Singh,Client no-show,0
+2024-07-06,CUST402,NAILART,30,Sofia Chen,2024-07-06,Yuki Tanaka,Client canceled,0
+2024-02-28,CUST617,HAIRCOLOR,35,Mei Ling,2024-02-28,Takeshi Yamada,Client canceled,0
+2024-07-27,CUST169,HAIRSTYLING,100,John Doe,2024-02-06,Michael Brown,Staff unavailable,172
+2024-10-03,CUST466,MASSAGE,45,Priya Sharma,2024-10-03,Li Wei,Staff unavailable,0
+2024-04-03,CUST744,HAIRCUT,55,Mei Ling,2024-04-03,Michael Brown,Rescheduled,0
+2024-09-18,CUST318,HAIRCUT,35,Takeshi Yamada,2024-09-18,Yuki Tanaka,Client canceled,0
+2024-07-22,CUST775,MANICURE,120,Yuki Tanaka,2024-07-22,Emily Davis,Service issue,0
+2024-02-20,CUST009,MAKEUP,15,Amit Patel,2024-02-18,Ravi Kumar,Client canceled,2
+2024-05-22,CUST907,FACIAL,80,Amit Patel,2024-03-25,Emily Davis,Staff unavailable,58
+2024-07-19,CUST782,MASSAGE,85,Priya Sharma,2024-07-19,Priya Sharma,Service issue,0
+2024-08-08,CUST434,NAILART,45,Michael Brown,2024-08-08,Emily Davis,Client no-show,0
+2024-10-06,CUST855,BODYSCRUB,85,John Doe,2024-10-06,Li Wei,Client no-show,0
+2024-05-02,CUST627,HAIRCOLOR,25,Anjali Singh,2024-05-02,Anjali Singh,Emergency closure,0
+2024-08-16,CUST883,HAIRSTYLING,80,Sofia Chen,2024-08-16,Sarah Wilson,Double-booked,0
+2024-07-21,CUST774,PEDICURE,80,Jane Smith,2024-07-21,Sarah Wilson,Staff unavailable,0
+2024-05-10,CUST169,HAIRSTYLING,80,Priya Sharma,2023-11-22,Takeshi Yamada,Double-booked,170
+2024-09-05,CUST681,SPATREATMENT,25,John Doe,2024-09-05,Amit Patel,Service issue,0
+2024-06-18,CUST339,WAXING,120,Jane Smith,2024-05-15,Sofia Chen,Staff unavailable,34
+2024-04-27,CUST860,SPATREATMENT,85,John Doe,2024-02-14,Anjali Singh,Rescheduled,73
+2024-10-11,CUST263,HAIRCUT,70,John Doe,2024-10-11,Amit Patel,Client canceled,0
+2023-11-22,CUST427,HAIRCOLOR,85,Mei Ling,2023-11-02,Yuki Tanaka,Rescheduled,20
+2024-09-11,CUST360,WAXING,40,Kunal Joshi,2024-05-28,Priya Sharma,Service issue,106
+2024-08-18,CUST780,MASSAGE,15,Takeshi Yamada,2024-04-28,John Doe,Staff unavailable,112
+2024-08-14,CUST027,PEDICURE,55,John Doe,2024-08-14,Yuki Tanaka,Service issue,0
+2024-06-05,CUST374,FACIAL,70,Kunal Joshi,2024-06-05,Sofia Chen,Client canceled,0
+2024-09-24,CUST474,HAIRCOLOR,15,Michael Brown,2024-09-24,Sofia Chen,Client no-show,0
+2024-10-07,CUST064,HAIRCOLOR,60,Anjali Singh,2024-05-29,Mei Ling,Client no-show,131
+2024-08-27,CUST893,SPATREATMENT,35,Amit Patel,2024-08-27,Mei Ling,Service issue,0
+2024-07-23,CUST409,HAIRCUT,35,Ravi Kumar,2024-07-23,Jane Smith,Double-booked,0
+2024-09-18,CUST301,EYEBROWTHREADING,50,Jane Smith,2024-04-26,Yuki Tanaka,Staff unavailable,145
+2024-10-01,CUST743,NAILART,35,Amit Patel,2024-05-18,Jane Smith,Staff unavailable,136
+2024-05-18,CUST679,SPATREATMENT,85,Ravi Kumar,2023-10-31,Emily Davis,Client no-show,200
+2024-08-01,CUST517,HAIRCOLOR,25,Anjali Singh,2024-08-01,John Doe,Emergency closure,0
+2024-10-20,CUST272,SKINCARE,55,Takeshi Yamada,2024-02-19,Michael Brown,Rescheduled,244
+2024-05-08,CUST785,MANICURE,100,Anjali Singh,2023-11-28,Takeshi Yamada,Emergency closure,162
+2024-08-31,CUST754,PEDICURE,30,Jane Smith,2024-06-26,Michael Brown,Client canceled,66
+2024-07-31,CUST496,NAILART,50,Yuki Tanaka,2024-07-31,Takeshi Yamada,Rescheduled,0
+2024-02-29,CUST991,SPATREATMENT,30,Jane Smith,2024-02-15,Mei Ling,Rescheduled,14
+2024-06-29,CUST779,PEDICURE,15,Anjali Singh,2024-05-10,Mei Ling,Service issue,50
+2024-09-12,CUST481,MANICURE,30,Ravi Kumar,2024-09-12,Mei Ling,Client no-show,0
+2024-05-04,CUST675,BODYSCRUB,30,Priya Sharma,2024-05-04,Anjali Singh,Emergency closure,0
+2024-10-05,CUST854,MANICURE,50,John Doe,2024-02-04,Ravi Kumar,Emergency closure,244
+2024-10-19,CUST670,MANICURE,60,Sofia Chen,2024-04-05,Takeshi Yamada,Client no-show,197
+2024-07-15,CUST140,PEDICURE,85,Li Wei,2024-02-11,Yuki Tanaka,Emergency closure,155
+2024-10-03,CUST004,HAIRSTYLING,80,Kunal Joshi,2024-10-03,Jane Smith,Client no-show,0
+2024-10-13,CUST404,PEDICURE,35,Emily Davis,2024-10-13,Anjali Singh,Service issue,0
+2023-12-03,CUST163,EYEBROWTHREADING,35,Li Wei,2023-10-29,Sarah Wilson,Double-booked,35
+2024-09-18,CUST374,HAIRCUT,25,Amit Patel,2024-09-18,Michael Brown,Rescheduled,0
+2024-05-30,CUST269,WAXING,50,Mei Ling,2023-12-18,Priya Sharma,Service issue,164
+2024-06-07,CUST256,HAIRSTYLING,25,Amit Patel,2024-06-07,Li Wei,Staff unavailable,0
+2024-02-20,CUST488,FACIAL,100,Mei Ling,2024-02-20,Sofia Chen,Client canceled,0
+2024-06-16,CUST237,WAXING,100,Ravi Kumar,2023-12-11,Jane Smith,Double-booked,188
+2024-07-16,CUST393,HAIRCUT,25,Yuki Tanaka,2024-07-16,Amit Patel,Staff unavailable,0
+2024-05-06,CUST781,SPATREATMENT,50,Mei Ling,2024-02-01,Kunal Joshi,Rescheduled,95
+2024-08-05,CUST886,NAILART,25,Jane Smith,2023-12-25,Sarah Wilson,Emergency closure,224
+2024-03-30,CUST557,EYEBROWTHREADING,35,Priya Sharma,2024-03-30,Yuki Tanaka,Client no-show,0
+2024-06-21,CUST247,EYEBROWTHREADING,70,Sofia Chen,2024-06-21,Priya Sharma,Rescheduled,0
+2024-03-31,CUST951,FACIAL,40,Sofia Chen,2024-03-31,Jane Smith,Service issue,0
+2024-01-08,CUST791,HAIRSTYLING,55,Jane Smith,2024-01-08,Li Wei,Client canceled,0
+2024-10-22,CUST561,MAKEUP,30,Priya Sharma,2024-01-22,Anjali Singh,Service issue,274
+2024-06-24,CUST580,BODYSCRUB,40,Takeshi Yamada,2024-06-24,Yuki Tanaka,Double-booked,0
+2024-10-05,CUST156,MANICURE,85,Michael Brown,2024-10-05,John Doe,Double-booked,0
+2024-08-14,CUST448,HAIRSTYLING,50,Takeshi Yamada,2024-08-14,Sofia Chen,Client canceled,0
+2024-07-03,CUST121,NAILART,120,Yuki Tanaka,2024-07-03,Jane Smith,Staff unavailable,0
+2024-09-10,CUST409,BODYSCRUB,40,Li Wei,2024-07-09,Ravi Kumar,Staff unavailable,63
+2024-09-16,CUST847,EYEBROWTHREADING,55,Yuki Tanaka,2024-09-16,Mei Ling,Double-booked,0
+2024-09-22,CUST409,PEDICURE,100,Ravi Kumar,2024-08-25,Mei Ling,Double-booked,28
+2024-05-31,CUST997,NAILART,15,Li Wei,2024-05-29,Sofia Chen,Emergency closure,2
+2024-09-01,CUST226,HAIRCUT,30,Michael Brown,2024-09-01,Li Wei,Client no-show,0
+2024-08-21,CUST874,FACIAL,55,Michael Brown,2024-01-19,Takeshi Yamada,Emergency closure,215
+2024-02-16,CUST511,HAIRCUT,80,Amit Patel,2024-02-16,Priya Sharma,Emergency closure,0
+2024-10-08,CUST515,MAKEUP,120,Anjali Singh,2024-10-08,Anjali Singh,Staff unavailable,0
+2024-04-17,CUST378,NAILART,50,Amit Patel,2023-12-30,Mei Ling,Client canceled,109
+2024-09-23,CUST454,MASSAGE,30,Anjali Singh,2023-11-11,Jane Smith,Staff unavailable,317
+2024-06-06,CUST759,MASSAGE,85,Yuki Tanaka,2024-06-06,Amit Patel,Client no-show,0
+2024-04-12,CUST254,SPATREATMENT,40,Emily Davis,2023-12-15,Michael Brown,Service issue,119
+2024-05-18,CUST720,HAIRSTYLING,100,Yuki Tanaka,2023-12-20,Takeshi Yamada,Double-booked,150
+2024-08-15,CUST576,EYEBROWTHREADING,60,Mei Ling,2024-08-15,Michael Brown,Double-booked,0
+2024-01-07,CUST836,EYEBROWTHREADING,70,Priya Sharma,2024-01-07,Sarah Wilson,Client no-show,0
+2024-07-09,CUST410,MANICURE,80,Anjali Singh,2024-07-09,Priya Sharma,Emergency closure,0
+2024-03-09,CUST713,MANICURE,120,Takeshi Yamada,2024-03-09,Emily Davis,Client canceled,0
+2024-09-17,CUST581,MANICURE,70,Li Wei,2023-11-11,Takeshi Yamada,Double-booked,311
+2024-08-14,CUST075,PEDICURE,30,Jane Smith,2024-08-14,John Doe,Rescheduled,0
+2024-04-19,CUST226,WAXING,100,Amit Patel,2023-11-03,Sofia Chen,Emergency closure,168
+2024-02-28,CUST943,HAIRCOLOR,100,Priya Sharma,2024-02-28,Sarah Wilson,Double-booked,0
+2024-03-30,CUST471,WAXING,55,Ravi Kumar,2024-03-30,Emily Davis,Rescheduled,0
+2024-07-23,CUST988,HAIRCUT,40,Priya Sharma,2023-11-03,Anjali Singh,Client no-show,263
+2024-04-25,CUST224,WAXING,55,Kunal Joshi,2023-12-28,Takeshi Yamada,Client no-show,119
+2024-08-31,CUST728,PEDICURE,35,Mei Ling,2023-10-28,Ravi Kumar,Emergency closure,308
+2024-10-03,CUST705,SPATREATMENT,40,Kunal Joshi,2024-10-03,Ravi Kumar,Double-booked,0
+2024-01-25,CUST281,HAIRCUT,35,Emily Davis,2024-01-25,John Doe,Staff unavailable,0
+2024-10-14,CUST629,WAXING,55,Anjali Singh,2024-06-16,Priya Sharma,Rescheduled,120
+2024-06-15,CUST783,PEDICURE,35,Emily Davis,2024-01-24,Mei Ling,Client canceled,143
+2024-01-29,CUST558,HAIRCOLOR,80,Ravi Kumar,2023-12-19,Yuki Tanaka,Double-booked,41
+2024-06-22,CUST116,WAXING,55,Takeshi Yamada,2024-06-22,Jane Smith,Client canceled,0
+2024-09-26,CUST373,PEDICURE,40,Michael Brown,2024-09-09,Sarah Wilson,Double-booked,17
+2024-10-21,CUST710,MAKEUP,45,Kunal Joshi,2024-10-21,Kunal Joshi,Staff unavailable,0
+2024-05-19,CUST733,MANICURE,55,Sofia Chen,2024-05-19,Takeshi Yamada,Staff unavailable,0
+2024-07-08,CUST717,MAKEUP,60,Kunal Joshi,2024-07-08,Sarah Wilson,Emergency closure,0
+2024-04-25,CUST418,EYEBROWTHREADING,120,Ravi Kumar,2023-11-13,Takeshi Yamada,Emergency closure,164
+2024-09-01,CUST895,MANICURE,25,Sarah Wilson,2024-09-01,Sofia Chen,Staff unavailable,0
+2024-07-07,CUST200,EYEBROWTHREADING,25,Ravi Kumar,2023-10-24,Takeshi Yamada,Service issue,257
+2024-01-08,CUST647,SKINCARE,40,Emily Davis,2023-11-12,Sofia Chen,Staff unavailable,57
+2024-05-20,CUST300,FACIAL,40,Priya Sharma,2023-10-25,Takeshi Yamada,Client no-show,208
+2024-04-07,CUST896,MAKEUP,70,Jane Smith,2023-11-13,Ravi Kumar,Client no-show,146
+2023-12-07,CUST318,FACIAL,120,Amit Patel,2023-12-07,Ravi Kumar,Service issue,0
+2024-04-29,CUST161,FACIAL,120,Jane Smith,2024-01-12,Priya Sharma,Rescheduled,108
+2024-09-23,CUST011,HAIRCOLOR,80,Emily Davis,2023-12-26,Li Wei,Client canceled,272
+2024-10-15,CUST323,MANICURE,40,Amit Patel,2024-10-15,Amit Patel,Double-booked,0
+2024-08-18,CUST628,SKINCARE,120,Sarah Wilson,2024-08-18,Amit Patel,Double-booked,0
+2024-07-15,CUST039,EYEBROWTHREADING,85,Sofia Chen,2023-12-20,Li Wei,Service issue,208
+2024-07-27,CUST550,PEDICURE,70,Mei Ling,2024-07-27,Mei Ling,Client no-show,0
+2024-10-18,CUST457,HAIRCUT,35,Li Wei,2024-10-18,Amit Patel,Emergency closure,0
+2024-02-27,CUST098,PEDICURE,100,Emily Davis,2024-02-27,Priya Sharma,Double-booked,0
+2024-05-29,CUST653,HAIRCUT,100,Priya Sharma,2024-05-29,Kunal Joshi,Client no-show,0
+2024-10-12,CUST851,MAKEUP,35,Anjali Singh,2023-11-09,Kunal Joshi,Rescheduled,338
+2024-02-14,CUST566,MASSAGE,50,Emily Davis,2023-12-17,Jane Smith,Client canceled,59
+2024-09-05,CUST864,PEDICURE,70,Emily Davis,2024-06-01,Jane Smith,Rescheduled,96
+2024-04-25,CUST475,WAXING,85,Kunal Joshi,2024-03-11,Kunal Joshi,Service issue,45
+2024-08-18,CUST218,WAXING,120,Kunal Joshi,2024-08-18,Sarah Wilson,Staff unavailable,0
+2024-07-19,CUST394,HAIRSTYLING,45,Amit Patel,2023-10-28,Yuki Tanaka,Staff unavailable,265
+2024-10-11,CUST809,MANICURE,70,Yuki Tanaka,2024-04-01,Michael Brown,Staff unavailable,193
+2024-01-31,CUST086,HAIRCUT,55,Yuki Tanaka,2023-12-20,Li Wei,Rescheduled,42
+2024-06-18,CUST280,HAIRCUT,35,John Doe,2024-06-18,Jane Smith,Double-booked,0
+2024-10-15,CUST086,NAILART,85,Ravi Kumar,2024-10-15,Yuki Tanaka,Client canceled,0
+2024-07-08,CUST113,SPATREATMENT,60,Priya Sharma,2024-07-08,Yuki Tanaka,Staff unavailable,0
+2024-06-04,CUST238,MANICURE,15,John Doe,2024-06-04,Emily Davis,Service issue,0
+2024-09-12,CUST338,HAIRCOLOR,30,Takeshi Yamada,2024-04-15,Ravi Kumar,Service issue,150
+2024-08-02,CUST080,HAIRSTYLING,35,Sarah Wilson,2024-08-02,Sofia Chen,Staff unavailable,0
+2024-06-29,CUST062,HAIRCOLOR,45,Yuki Tanaka,2024-02-01,Priya Sharma,Staff unavailable,149
+2024-06-16,CUST341,MAKEUP,120,Anjali Singh,2023-12-27,Kunal Joshi,Client canceled,172
+2024-06-05,CUST411,MAKEUP,45,Kunal Joshi,2024-06-05,Amit Patel,Staff unavailable,0
+2024-10-23,CUST726,HAIRCOLOR,45,Sofia Chen,2024-10-23,Li Wei,Client canceled,0
+2024-04-13,CUST320,HAIRCOLOR,40,Michael Brown,2023-11-15,Sarah Wilson,Service issue,150
+2024-10-10,CUST629,SKINCARE,40,Sarah Wilson,2024-10-10,Kunal Joshi,Staff unavailable,0
+2024-03-08,CUST701,MANICURE,80,Michael Brown,2024-03-03,John Doe,Rescheduled,5
+2024-07-20,CUST508,HAIRCOLOR,35,Priya Sharma,2024-05-22,Sofia Chen,Emergency closure,59
+2024-05-14,CUST666,WAXING,80,Priya Sharma,2024-05-14,Emily Davis,Rescheduled,0
+2024-10-22,CUST022,SPATREATMENT,35,Takeshi Yamada,2024-10-22,Yuki Tanaka,Service issue,0
+2024-08-08,CUST761,SPATREATMENT,70,Michael Brown,2024-08-08,Amit Patel,Client canceled,0
+2024-07-08,CUST842,FACIAL,30,Priya Sharma,2024-01-22,Emily Davis,Rescheduled,168
+2024-08-26,CUST616,MASSAGE,45,Sofia Chen,2024-08-26,Ravi Kumar,Client canceled,0
+2023-12-14,CUST749,MAKEUP,70,Jane Smith,2023-12-01,Kunal Joshi,Rescheduled,13
+2024-02-07,CUST197,HAIRCUT,15,John Doe,2024-02-07,Takeshi Yamada,Rescheduled,0
+2024-06-21,CUST454,NAILART,100,Emily Davis,2024-06-21,Ravi Kumar,Client canceled,0
+2024-01-16,CUST494,HAIRCUT,25,Mei Ling,2023-12-27,Priya Sharma,Double-booked,20
+2024-09-29,CUST555,MASSAGE,55,Michael Brown,2024-05-20,Yuki Tanaka,Rescheduled,132
+2024-10-09,CUST328,NAILART,85,Anjali Singh,2024-10-09,Mei Ling,Staff unavailable,0
+2024-07-24,CUST075,SKINCARE,35,Sarah Wilson,2024-07-24,Sarah Wilson,Emergency closure,0
+2024-09-25,CUST478,MANICURE,15,Jane Smith,2024-09-25,Yuki Tanaka,Service issue,0
+2024-08-04,CUST840,PEDICURE,100,Michael Brown,2024-08-04,Sofia Chen,Double-booked,0
+2024-04-06,CUST030,MANICURE,120,Jane Smith,2024-04-06,Anjali Singh,Client canceled,0
+2024-03-14,CUST053,HAIRCUT,50,Yuki Tanaka,2023-12-05,Anjali Singh,Double-booked,100
+2024-03-31,CUST855,HAIRCUT,30,Jane Smith,2024-03-31,Sofia Chen,Client no-show,0
+2024-06-19,CUST762,NAILART,85,Michael Brown,2024-06-19,John Doe,Client no-show,0
+2024-09-16,CUST199,NAILART,80,Amit Patel,2024-09-16,Priya Sharma,Rescheduled,0
+2024-03-19,CUST219,MAKEUP,80,Ravi Kumar,2023-12-29,Sarah Wilson,Rescheduled,81
+2024-02-05,CUST495,SKINCARE,70,Anjali Singh,2024-02-05,Emily Davis,Staff unavailable,0
+2024-09-18,CUST448,MAKEUP,85,Emily Davis,2024-09-18,John Doe,Emergency closure,0
+2024-10-03,CUST118,MASSAGE,40,Emily Davis,2024-10-03,Michael Brown,Service issue,0
+2024-08-19,CUST664,HAIRCOLOR,100,Anjali Singh,2023-12-08,Sofia Chen,Double-booked,255
+2024-05-31,CUST675,MANICURE,50,Amit Patel,2024-05-31,Emily Davis,Client no-show,0
+2024-06-03,CUST532,NAILART,15,Kunal Joshi,2024-06-03,Anjali Singh,Rescheduled,0
+2024-09-30,CUST159,EYEBROWTHREADING,30,Priya Sharma,2024-09-30,Jane Smith,Service issue,0
+2024-10-12,CUST565,MASSAGE,100,Emily Davis,2024-09-30,Li Wei,Double-booked,12
+2024-03-03,CUST499,WAXING,50,Kunal Joshi,2024-03-03,Mei Ling,Rescheduled,0
+2024-09-02,CUST522,SKINCARE,25,Jane Smith,2023-12-06,Anjali Singh,Rescheduled,271
+2024-05-22,CUST751,HAIRCUT,35,Sofia Chen,2024-05-22,Sarah Wilson,Client no-show,0
+2024-07-08,CUST795,MAKEUP,80,Sarah Wilson,2024-03-27,Takeshi Yamada,Client no-show,103
+2024-05-21,CUST035,MASSAGE,15,Yuki Tanaka,2024-05-21,Ravi Kumar,Rescheduled,0
+2024-01-25,CUST397,MANICURE,80,John Doe,2024-01-25,Li Wei,Client canceled,0
+2024-09-04,CUST881,NAILART,15,Emily Davis,2024-01-19,Li Wei,Rescheduled,229
+2024-01-22,CUST341,HAIRCUT,70,Anjali Singh,2023-11-03,Jane Smith,Service issue,80
+2024-03-05,CUST240,PEDICURE,40,Sofia Chen,2024-03-05,Mei Ling,Rescheduled,0
+2024-04-24,CUST990,SKINCARE,15,Michael Brown,2024-02-07,Kunal Joshi,Staff unavailable,77
+2024-08-28,CUST741,MASSAGE,80,Takeshi Yamada,2024-08-28,Mei Ling,Emergency closure,0
+2024-07-06,CUST075,HAIRSTYLING,70,Ravi Kumar,2024-07-06,Michael Brown,Staff unavailable,0
+2024-10-08,CUST206,HAIRCUT,15,Anjali Singh,2024-04-28,Michael Brown,Staff unavailable,163
+2024-06-16,CUST237,MANICURE,25,Priya Sharma,2024-05-19,Amit Patel,Client canceled,28
+2024-01-07,CUST084,FACIAL,40,Takeshi Yamada,2023-12-11,Anjali Singh,Client canceled,27
+2024-04-17,CUST141,EYEBROWTHREADING,15,Takeshi Yamada,2024-04-17,Anjali Singh,Rescheduled,0
+2024-08-25,CUST763,BODYSCRUB,70,Jane Smith,2024-08-25,Anjali Singh,Staff unavailable,0
+2024-07-11,CUST264,HAIRCOLOR,120,Ravi Kumar,2024-07-11,Amit Patel,Client canceled,0
+2024-07-25,CUST630,BODYSCRUB,100,Sarah Wilson,2023-11-10,Priya Sharma,Client no-show,258
+2024-10-16,CUST954,MANICURE,60,Sarah Wilson,2024-05-07,John Doe,Rescheduled,162
+2024-10-09,CUST044,WAXING,50,Amit Patel,2023-12-14,Takeshi Yamada,Service issue,300
+2024-09-30,CUST735,MAKEUP,60,Kunal Joshi,2024-09-30,Takeshi Yamada,Emergency closure,0
+2024-07-14,CUST642,WAXING,120,Mei Ling,2024-04-09,Mei Ling,Double-booked,96
+2024-02-05,CUST295,FACIAL,60,Takeshi Yamada,2023-11-20,Jane Smith,Rescheduled,77
+2024-07-24,CUST648,HAIRCOLOR,120,Amit Patel,2024-07-24,Sarah Wilson,Double-booked,0
+2024-05-11,CUST486,HAIRSTYLING,30,Priya Sharma,2024-05-11,Mei Ling,Staff unavailable,0
+2024-07-06,CUST669,FACIAL,120,Kunal Joshi,2024-04-25,Michael Brown,Emergency closure,72
+2024-06-03,CUST323,SPATREATMENT,120,Yuki Tanaka,2024-06-03,Li Wei,Double-booked,0
+2024-08-22,CUST861,BODYSCRUB,45,Takeshi Yamada,2024-08-22,Emily Davis,Staff unavailable,0
+2024-10-14,CUST707,FACIAL,120,Sofia Chen,2024-10-14,Yuki Tanaka,Client no-show,0
+2024-09-07,CUST833,BODYSCRUB,25,Ravi Kumar,2024-09-07,Ravi Kumar,Double-booked,0
+2024-08-24,CUST611,HAIRCUT,100,Mei Ling,2024-08-24,Amit Patel,Emergency closure,0
+2024-10-04,CUST111,WAXING,35,Michael Brown,2023-11-30,Sofia Chen,Rescheduled,309
+2024-04-19,CUST910,HAIRCUT,15,Jane Smith,2024-04-19,Emily Davis,Staff unavailable,0
+2024-05-25,CUST794,EYEBROWTHREADING,50,Ravi Kumar,2024-05-25,Sarah Wilson,Rescheduled,0
+2024-04-09,CUST867,SPATREATMENT,40,Amit Patel,2024-04-09,Anjali Singh,Emergency closure,0
+2024-10-18,CUST493,HAIRCOLOR,100,John Doe,2024-10-18,Michael Brown,Client canceled,0
+2024-07-16,CUST843,HAIRSTYLING,80,Li Wei,2024-07-16,Yuki Tanaka,Staff unavailable,0
+2024-02-19,CUST045,SKINCARE,35,Mei Ling,2023-12-24,Kunal Joshi,Double-booked,57
+2024-10-17,CUST890,BODYSCRUB,30,Mei Ling,2024-07-31,Michael Brown,Staff unavailable,78
+2024-09-05,CUST974,HAIRSTYLING,30,Priya Sharma,2024-09-05,Michael Brown,Rescheduled,0
+2024-05-22,CUST316,BODYSCRUB,55,Jane Smith,2024-05-22,Anjali Singh,Client no-show,0
+2024-05-27,CUST899,MANICURE,120,Emily Davis,2024-03-26,Sofia Chen,Staff unavailable,62
+2024-08-07,CUST889,FACIAL,100,Sarah Wilson,2024-08-07,Amit Patel,Double-booked,0
+2024-05-10,CUST807,EYEBROWTHREADING,70,Sarah Wilson,2024-05-10,Emily Davis,Client canceled,0
+2024-04-18,CUST281,WAXING,45,Yuki Tanaka,2024-04-18,Anjali Singh,Service issue,0
+2024-09-26,CUST891,SKINCARE,60,John Doe,2023-11-22,Sarah Wilson,Client no-show,309
+2024-04-23,CUST109,NAILART,80,Sofia Chen,2024-04-23,Amit Patel,Client canceled,0
+2024-09-26,CUST742,BODYSCRUB,30,Priya Sharma,2024-09-19,Sarah Wilson,Staff unavailable,7
+2024-10-23,CUST832,HAIRSTYLING,50,Sofia Chen,2024-09-14,Amit Patel,Rescheduled,39
+2024-09-14,CUST579,EYEBROWTHREADING,30,Michael Brown,2024-09-14,Sofia Chen,Emergency closure,0
+2024-10-18,CUST553,PEDICURE,40,Kunal Joshi,2024-02-25,Ravi Kumar,Rescheduled,236
+2024-08-01,CUST241,SKINCARE,15,Ravi Kumar,2024-03-09,Sarah Wilson,Double-booked,145
+2024-08-12,CUST530,PEDICURE,30,Yuki Tanaka,2024-08-12,Anjali Singh,Rescheduled,0
+2024-08-23,CUST685,HAIRCUT,40,Yuki Tanaka,2024-02-29,Amit Patel,Client no-show,176
+2024-01-12,CUST143,WAXING,100,Li Wei,2023-11-27,Takeshi Yamada,Rescheduled,46
+2024-04-10,CUST238,MAKEUP,100,Anjali Singh,2024-02-11,Michael Brown,Double-booked,59
+2024-09-05,CUST814,MAKEUP,45,Emily Davis,2024-09-05,Priya Sharma,Service issue,0
+2024-01-25,CUST326,NAILART,55,Amit Patel,2023-11-19,Mei Ling,Staff unavailable,67
+2024-08-01,CUST424,MANICURE,35,Takeshi Yamada,2024-08-01,Kunal Joshi,Emergency closure,0
+2024-07-31,CUST276,HAIRSTYLING,30,Anjali Singh,2024-04-17,Michael Brown,Staff unavailable,105
+2023-11-17,CUST972,NAILART,50,Kunal Joshi,2023-11-17,John Doe,Rescheduled,0
+2024-09-06,CUST782,FACIAL,30,Anjali Singh,2024-03-16,Ravi Kumar,Client canceled,174
+2024-09-09,CUST584,FACIAL,55,Priya Sharma,2024-09-09,Ravi Kumar,Staff unavailable,0
+2024-09-03,CUST910,HAIRSTYLING,85,Takeshi Yamada,2024-06-30,Michael Brown,Service issue,65
+2024-04-27,CUST167,HAIRCOLOR,50,Mei Ling,2024-04-27,Kunal Joshi,Rescheduled,0
+2024-06-30,CUST331,MANICURE,25,John Doe,2023-11-11,Takeshi Yamada,Emergency closure,232
+2024-04-21,CUST603,EYEBROWTHREADING,120,Sarah Wilson,2023-12-04,Emily Davis,Double-booked,139
+2024-05-22,CUST744,BODYSCRUB,35,Michael Brown,2024-04-12,Sofia Chen,Service issue,40
+2024-07-07,CUST142,MAKEUP,25,Sofia Chen,2024-02-01,Sarah Wilson,Rescheduled,157
+2024-06-10,CUST841,SKINCARE,85,Li Wei,2024-06-10,Anjali Singh,Service issue,0
+2023-11-16,CUST604,HAIRCOLOR,85,Priya Sharma,2023-11-16,Ravi Kumar,Staff unavailable,0
+2024-05-10,CUST207,BODYSCRUB,55,John Doe,2024-05-10,Michael Brown,Emergency closure,0
+2024-07-11,CUST017,BODYSCRUB,30,Mei Ling,2024-03-06,Michael Brown,Double-booked,127
+2024-09-18,CUST184,HAIRCOLOR,55,Amit Patel,2023-11-22,Sofia Chen,Rescheduled,301
+2024-09-27,CUST310,HAIRCUT,55,Michael Brown,2024-04-21,Takeshi Yamada,Client no-show,159
+2024-02-29,CUST095,PEDICURE,85,Priya Sharma,2024-02-29,Sofia Chen,Double-booked,0
+2024-08-04,CUST980,BODYSCRUB,35,Mei Ling,2024-08-04,Jane Smith,Client no-show,0
+2024-02-21,CUST117,HAIRCOLOR,25,Li Wei,2023-10-29,Takeshi Yamada,Service issue,115
+2024-09-27,CUST475,HAIRCOLOR,60,Sarah Wilson,2024-01-14,Jane Smith,Client canceled,257
+2024-06-15,CUST925,SPATREATMENT,30,Yuki Tanaka,2023-12-09,Emily Davis,Double-booked,189
+2024-08-16,CUST967,NAILART,85,Sarah Wilson,2023-12-14,Yuki Tanaka,Service issue,246
+2024-03-24,CUST787,MASSAGE,25,Priya Sharma,2023-11-21,Priya Sharma,Client no-show,124
+2024-10-22,CUST511,HAIRCUT,60,Sarah Wilson,2024-10-22,Priya Sharma,Staff unavailable,0
+2024-07-05,CUST037,WAXING,60,John Doe,2024-06-29,Emily Davis,Staff unavailable,6
+2024-08-15,CUST341,MASSAGE,100,John Doe,2024-08-15,John Doe,Client canceled,0
+2024-09-02,CUST189,NAILART,45,Sofia Chen,2024-09-02,Yuki Tanaka,Double-booked,0
+2024-09-20,CUST677,NAILART,30,Priya Sharma,2024-09-20,Takeshi Yamada,Double-booked,0
+2024-05-10,CUST586,NAILART,60,Sofia Chen,2024-05-10,Emily Davis,Double-booked,0
+2024-10-05,CUST952,MASSAGE,85,Priya Sharma,2024-10-05,Amit Patel,Service issue,0
+2024-08-20,CUST590,HAIRSTYLING,100,Yuki Tanaka,2023-10-25,Sofia Chen,Emergency closure,300
+2024-08-18,CUST737,PEDICURE,25,Yuki Tanaka,2024-08-18,Kunal Joshi,Emergency closure,0
+2024-07-13,CUST306,HAIRCOLOR,40,Amit Patel,2024-01-01,Priya Sharma,Client canceled,194
+2024-05-06,CUST718,SKINCARE,30,Priya Sharma,2024-05-06,Takeshi Yamada,Double-booked,0
+2024-07-16,CUST597,PEDICURE,35,Li Wei,2023-11-05,Anjali Singh,Service issue,254
+2024-09-07,CUST057,MAKEUP,55,Kunal Joshi,2023-10-31,Amit Patel,Staff unavailable,312
+2024-08-08,CUST896,MANICURE,50,Michael Brown,2024-04-30,Sarah Wilson,Client no-show,100
+2024-09-03,CUST123,HAIRSTYLING,50,Jane Smith,2024-09-03,Yuki Tanaka,Service issue,0
+2023-12-13,CUST083,WAXING,25,Takeshi Yamada,2023-12-13,Michael Brown,Emergency closure,0
+2024-09-27,CUST683,PEDICURE,70,Jane Smith,2024-09-27,Emily Davis,Emergency closure,0
+2024-06-15,CUST318,SKINCARE,70,Mei Ling,2024-03-30,Kunal Joshi,Staff unavailable,77
+2024-08-05,CUST800,FACIAL,25,Yuki Tanaka,2024-08-05,Michael Brown,Staff unavailable,0
+2024-08-09,CUST472,NAILART,85,Sarah Wilson,2024-08-09,Takeshi Yamada,Client no-show,0
+2024-09-06,CUST381,BODYSCRUB,60,Michael Brown,2024-09-06,Ravi Kumar,Staff unavailable,0
+2024-07-21,CUST968,MAKEUP,45,Anjali Singh,2024-07-21,John Doe,Client canceled,0
+2024-07-07,CUST817,MANICURE,30,Kunal Joshi,2023-11-29,Ravi Kumar,Client no-show,221
+2024-09-13,CUST219,HAIRCUT,50,John Doe,2024-03-16,John Doe,Staff unavailable,181
+2023-12-19,CUST311,WAXING,50,Ravi Kumar,2023-12-19,Jane Smith,Rescheduled,0
+2024-07-08,CUST520,MANICURE,45,Emily Davis,2024-07-08,Yuki Tanaka,Service issue,0
+2024-05-08,CUST237,NAILART,60,Amit Patel,2024-02-11,Michael Brown,Staff unavailable,87
+2024-10-09,CUST984,BODYSCRUB,50,Sarah Wilson,2024-07-24,John Doe,Client canceled,77
+2024-09-25,CUST040,HAIRSTYLING,55,Sarah Wilson,2023-10-30,Li Wei,Double-booked,331
+2024-07-28,CUST646,BODYSCRUB,35,Li Wei,2024-07-28,Priya Sharma,Staff unavailable,0
+2024-09-16,CUST461,MASSAGE,30,Sarah Wilson,2024-06-26,Li Wei,Emergency closure,82
+2024-05-03,CUST820,BODYSCRUB,15,John Doe,2024-05-03,Yuki Tanaka,Emergency closure,0
+2024-04-05,CUST464,MASSAGE,50,John Doe,2024-04-05,Li Wei,Emergency closure,0
+2024-03-13,CUST865,MAKEUP,25,Emily Davis,2024-03-13,Mei Ling,Double-booked,0
+2023-12-20,CUST101,HAIRSTYLING,35,Takeshi Yamada,2023-12-20,Priya Sharma,Emergency closure,0
+2024-04-04,CUST782,EYEBROWTHREADING,50,Priya Sharma,2024-02-23,Amit Patel,Rescheduled,41
+2024-08-08,CUST832,NAILART,120,Anjali Singh,2024-08-08,Kunal Joshi,Staff unavailable,0
+2024-06-25,CUST509,MASSAGE,55,Michael Brown,2024-04-25,John Doe,Emergency closure,61
+2024-07-02,CUST080,HAIRCUT,35,Sarah Wilson,2024-07-02,John Doe,Client no-show,0
+2024-09-19,CUST822,BODYSCRUB,100,Jane Smith,2024-09-19,Amit Patel,Double-booked,0
+2024-10-02,CUST618,BODYSCRUB,15,Sofia Chen,2023-12-20,Michael Brown,Rescheduled,287
+2024-10-04,CUST959,HAIRCUT,80,Li Wei,2024-10-04,Michael Brown,Client no-show,0
+2024-03-30,CUST633,FACIAL,25,Li Wei,2023-11-30,Yuki Tanaka,Client no-show,121
+2024-05-19,CUST184,MAKEUP,25,Takeshi Yamada,2023-12-15,Li Wei,Client no-show,156
+2024-05-06,CUST024,HAIRCOLOR,30,Jane Smith,2024-05-06,Yuki Tanaka,Client no-show,0
+2024-06-04,CUST744,EYEBROWTHREADING,45,Mei Ling,2023-12-20,Amit Patel,Staff unavailable,167
+2024-06-24,CUST303,WAXING,35,Jane Smith,2023-11-14,Yuki Tanaka,Emergency closure,223
+2024-05-26,CUST054,SKINCARE,60,Kunal Joshi,2023-12-26,Takeshi Yamada,Service issue,152
+2024-03-26,CUST757,MASSAGE,25,Mei Ling,2024-03-16,Priya Sharma,Staff unavailable,10
+2024-08-23,CUST690,HAIRCUT,35,Ravi Kumar,2024-07-21,Li Wei,Staff unavailable,33
+2024-06-25,CUST543,SKINCARE,85,Yuki Tanaka,2024-06-25,Ravi Kumar,Rescheduled,0
+2024-09-11,CUST068,HAIRSTYLING,35,Sofia Chen,2024-09-11,Mei Ling,Rescheduled,0
+2024-06-16,CUST164,MASSAGE,85,Yuki Tanaka,2024-03-07,Anjali Singh,Emergency closure,101
+2024-04-20,CUST231,HAIRCOLOR,120,Li Wei,2024-04-20,Sarah Wilson,Service issue,0
+2024-04-14,CUST285,SKINCARE,40,Jane Smith,2024-04-14,Mei Ling,Rescheduled,0
+2024-05-06,CUST009,HAIRSTYLING,40,Ravi Kumar,2024-05-06,Michael Brown,Emergency closure,0
+2024-08-14,CUST141,MANICURE,80,Priya Sharma,2024-02-25,Kunal Joshi,Emergency closure,171
+2024-05-15,CUST945,NAILART,100,Amit Patel,2024-05-15,Anjali Singh,Client canceled,0
+2024-03-24,CUST496,BODYSCRUB,80,Michael Brown,2024-03-24,Jane Smith,Service issue,0
+2024-08-22,CUST299,MANICURE,85,Ravi Kumar,2024-08-22,Emily Davis,Rescheduled,0
+2024-09-14,CUST566,MASSAGE,50,Takeshi Yamada,2024-06-29,Kunal Joshi,Service issue,77
+2024-07-05,CUST761,HAIRCOLOR,60,Kunal Joshi,2024-07-05,Li Wei,Staff unavailable,0
+2024-10-13,CUST565,EYEBROWTHREADING,50,Michael Brown,2023-10-29,John Doe,Staff unavailable,350
+2024-02-25,CUST033,SKINCARE,70,Jane Smith,2024-02-25,Takeshi Yamada,Service issue,0
+2024-04-30,CUST062,MAKEUP,50,Anjali Singh,2024-04-20,Takeshi Yamada,Client canceled,10
+2024-05-26,CUST866,NAILART,30,Priya Sharma,2024-05-26,Amit Patel,Client canceled,0
+2024-03-12,CUST381,MASSAGE,50,Ravi Kumar,2024-03-12,Kunal Joshi,Service issue,0
+2024-03-04,CUST837,HAIRCUT,80,Sofia Chen,2024-03-04,Amit Patel,Rescheduled,0
+2024-03-23,CUST918,MAKEUP,25,Jane Smith,2024-03-01,John Doe,Double-booked,22
+2024-07-03,CUST679,MAKEUP,55,Sarah Wilson,2024-07-03,Li Wei,Client canceled,0
+2024-08-29,CUST419,MAKEUP,25,John Doe,2024-08-29,Kunal Joshi,Client no-show,0
+2024-05-07,CUST860,PEDICURE,40,Ravi Kumar,2024-03-20,Emily Davis,Staff unavailable,48
+2024-09-16,CUST205,MASSAGE,55,Sofia Chen,2024-09-16,Sarah Wilson,Service issue,0
+2024-04-29,CUST757,NAILART,45,Kunal Joshi,2024-04-29,Emily Davis,Client no-show,0
+2024-04-01,CUST673,BODYSCRUB,60,Amit Patel,2024-03-30,Anjali Singh,Service issue,2
+2024-08-27,CUST660,BODYSCRUB,60,Sarah Wilson,2024-08-27,Emily Davis,Emergency closure,0
+2024-02-04,CUST698,MASSAGE,30,Yuki Tanaka,2024-02-04,Takeshi Yamada,Staff unavailable,0
+2024-04-15,CUST078,HAIRSTYLING,80,Amit Patel,2024-04-15,Anjali Singh,Staff unavailable,0
+2024-01-14,CUST552,PEDICURE,40,Yuki Tanaka,2023-11-05,Emily Davis,Client canceled,70
+2024-04-17,CUST221,HAIRCUT,120,Jane Smith,2024-04-09,Sarah Wilson,Client canceled,8
+2024-05-15,CUST471,MAKEUP,70,John Doe,2024-03-19,Kunal Joshi,Client no-show,57
+2024-10-06,CUST849,MAKEUP,60,Ravi Kumar,2024-10-06,Sarah Wilson,Emergency closure,0
+2024-09-30,CUST411,MASSAGE,25,Ravi Kumar,2024-03-15,Michael Brown,Service issue,199
+2024-05-08,CUST605,HAIRSTYLING,50,Anjali Singh,2024-01-05,John Doe,Emergency closure,124
+2024-08-15,CUST330,BODYSCRUB,50,Li Wei,2024-08-15,Sarah Wilson,Staff unavailable,0
+2024-07-23,CUST888,BODYSCRUB,45,Anjali Singh,2024-07-23,Anjali Singh,Client no-show,0
+2024-07-12,CUST966,HAIRCOLOR,40,Takeshi Yamada,2024-04-09,Sarah Wilson,Double-booked,94
+2024-08-22,CUST829,MASSAGE,80,Jane Smith,2024-01-17,Michael Brown,Client no-show,218
+2024-07-17,CUST787,PEDICURE,80,Jane Smith,2024-07-17,Amit Patel,Rescheduled,0
+2024-08-28,CUST501,FACIAL,100,John Doe,2024-02-09,Anjali Singh,Client no-show,201
+2024-10-22,CUST384,PEDICURE,85,Anjali Singh,2024-03-25,Michael Brown,Emergency closure,211
+2024-10-17,CUST205,BODYSCRUB,15,Sofia Chen,2024-10-17,Takeshi Yamada,Rescheduled,0
+2024-01-02,CUST354,BODYSCRUB,60,Yuki Tanaka,2023-12-25,Ravi Kumar,Rescheduled,8
+2024-10-22,CUST498,MANICURE,80,Sofia Chen,2024-10-16,Ravi Kumar,Rescheduled,6
+2024-06-11,CUST192,BODYSCRUB,45,John Doe,2024-04-30,Jane Smith,Double-booked,42
+2024-06-24,CUST167,HAIRCUT,25,Priya Sharma,2024-01-02,Emily Davis,Client no-show,174
+2024-09-02,CUST347,WAXING,40,Li Wei,2024-09-02,John Doe,Emergency closure,0
+2024-08-01,CUST906,MASSAGE,70,Sofia Chen,2024-08-01,Sofia Chen,Client no-show,0
+2024-07-29,CUST530,SKINCARE,100,Mei Ling,2024-07-29,Mei Ling,Double-booked,0
+2024-10-07,CUST803,PEDICURE,45,Takeshi Yamada,2024-10-07,Michael Brown,Staff unavailable,0
+2024-08-25,CUST565,WAXING,35,Michael Brown,2024-08-25,Amit Patel,Client canceled,0
+2024-10-14,CUST675,HAIRSTYLING,30,John Doe,2023-11-20,Mei Ling,Emergency closure,329
+2024-04-03,CUST167,FACIAL,70,John Doe,2024-04-03,Amit Patel,Emergency closure,0
+2024-08-24,CUST160,HAIRCUT,85,Emily Davis,2024-08-24,Takeshi Yamada,Client no-show,0
+2024-05-15,CUST486,NAILART,35,Yuki Tanaka,2024-05-15,Priya Sharma,Client canceled,0
+2024-09-04,CUST001,SPATREATMENT,120,Takeshi Yamada,2024-09-04,Priya Sharma,Service issue,0
+2024-07-07,CUST261,PEDICURE,85,Sarah Wilson,2024-02-03,Priya Sharma,Service issue,155
+2024-01-25,CUST654,WAXING,50,Sarah Wilson,2023-11-09,Mei Ling,Double-booked,77
+2024-05-30,CUST226,NAILART,30,Mei Ling,2024-05-30,Yuki Tanaka,Service issue,0
+2024-08-06,CUST156,FACIAL,60,Anjali Singh,2024-08-06,Michael Brown,Emergency closure,0
+2024-09-11,CUST227,MANICURE,25,Takeshi Yamada,2024-04-15,Sofia Chen,Service issue,149
+2024-06-03,CUST621,NAILART,30,Priya Sharma,2024-06-03,Mei Ling,Staff unavailable,0
+2024-09-22,CUST611,HAIRCUT,85,Jane Smith,2024-03-18,Michael Brown,Staff unavailable,188
+2024-10-16,CUST125,HAIRCUT,15,Jane Smith,2024-10-16,Sarah Wilson,Staff unavailable,0
+2024-09-16,CUST954,SKINCARE,35,Amit Patel,2023-11-16,Takeshi Yamada,Service issue,305
+2024-06-13,CUST559,MANICURE,60,Yuki Tanaka,2024-06-13,Sofia Chen,Double-booked,0
+2024-06-11,CUST266,SPATREATMENT,55,Mei Ling,2024-06-11,Priya Sharma,Rescheduled,0
+2024-06-22,CUST792,MASSAGE,15,John Doe,2023-12-13,Anjali Singh,Rescheduled,192
+2024-05-18,CUST979,NAILART,50,Mei Ling,2024-03-31,Takeshi Yamada,Client canceled,48
+2024-07-19,CUST475,MANICURE,15,Mei Ling,2024-02-05,Amit Patel,Rescheduled,165
+2024-02-14,CUST837,HAIRCUT,100,Kunal Joshi,2024-01-03,Priya Sharma,Rescheduled,42
+2024-08-22,CUST178,HAIRCUT,100,Mei Ling,2024-08-22,Ravi Kumar,Staff unavailable,0
+2024-09-02,CUST207,WAXING,120,Sarah Wilson,2024-09-02,Emily Davis,Staff unavailable,0
+2024-03-24,CUST640,BODYSCRUB,85,Kunal Joshi,2024-03-24,Ravi Kumar,Service issue,0
+2024-04-24,CUST342,SPATREATMENT,40,Yuki Tanaka,2023-11-18,Priya Sharma,Client canceled,158
+2024-06-07,CUST005,NAILART,70,Mei Ling,2023-11-12,Takeshi Yamada,Client no-show,208
+2024-09-15,CUST144,SKINCARE,70,Li Wei,2024-09-15,Sofia Chen,Emergency closure,0
+2024-02-14,CUST658,SKINCARE,55,Michael Brown,2024-02-14,Anjali Singh,Client canceled,0
+2024-08-05,CUST976,NAILART,55,Jane Smith,2024-03-07,Amit Patel,Client canceled,151
+2024-08-08,CUST976,MAKEUP,60,Kunal Joshi,2024-08-08,Yuki Tanaka,Double-booked,0
+2024-10-04,CUST064,FACIAL,50,Amit Patel,2024-10-04,Anjali Singh,Service issue,0
+2024-06-03,CUST486,SKINCARE,80,Takeshi Yamada,2024-02-26,Mei Ling,Double-booked,98
+2024-10-02,CUST324,MANICURE,120,Michael Brown,2024-10-02,Kunal Joshi,Client canceled,0
+2024-06-24,CUST637,FACIAL,100,Amit Patel,2024-06-23,Amit Patel,Client canceled,1
+2024-09-27,CUST704,MANICURE,60,Emily Davis,2024-09-27,Priya Sharma,Client canceled,0
+2024-07-13,CUST193,HAIRSTYLING,80,Amit Patel,2024-07-13,Mei Ling,Rescheduled,0
+2024-01-06,CUST343,HAIRCUT,70,Jane Smith,2023-11-24,Kunal Joshi,Emergency closure,43
+2024-06-10,CUST644,BODYSCRUB,40,Jane Smith,2023-12-16,Michael Brown,Emergency closure,177
+2024-10-01,CUST688,WAXING,15,Kunal Joshi,2024-10-01,Sofia Chen,Double-booked,0
+2024-10-11,CUST863,SKINCARE,100,Mei Ling,2024-10-11,Li Wei,Client canceled,0
+2024-04-27,CUST948,BODYSCRUB,60,Ravi Kumar,2024-01-06,Michael Brown,Emergency closure,112
+2024-04-02,CUST316,BODYSCRUB,30,Emily Davis,2023-12-28,Jane Smith,Staff unavailable,96
+2024-08-25,CUST170,BODYSCRUB,80,Kunal Joshi,2024-04-25,Anjali Singh,Emergency closure,122
+2023-12-31,CUST797,MAKEUP,15,Li Wei,2023-12-31,Li Wei,Service issue,0
+2024-01-16,CUST203,FACIAL,100,John Doe,2023-11-01,Mei Ling,Service issue,76
+2024-09-15,CUST064,MANICURE,70,Sofia Chen,2024-02-06,Sarah Wilson,Emergency closure,222
+2024-08-12,CUST666,EYEBROWTHREADING,45,Takeshi Yamada,2024-08-12,Michael Brown,Staff unavailable,0
+2024-07-01,CUST985,HAIRSTYLING,50,Amit Patel,2024-07-01,Jane Smith,Service issue,0
+2024-04-21,CUST459,PEDICURE,80,Ravi Kumar,2024-04-21,John Doe,Rescheduled,0
+2024-10-04,CUST959,BODYSCRUB,70,Mei Ling,2024-06-03,Li Wei,Emergency closure,123
+2024-06-06,CUST919,MASSAGE,100,Sarah Wilson,2024-05-12,Ravi Kumar,Rescheduled,25
+2024-03-30,CUST325,FACIAL,80,Yuki Tanaka,2024-01-16,Amit Patel,Emergency closure,74
+2024-06-02,CUST522,SKINCARE,120,John Doe,2024-06-02,Yuki Tanaka,Client no-show,0
+2024-09-23,CUST626,SPATREATMENT,15,Priya Sharma,2024-03-31,Yuki Tanaka,Client no-show,176
+2024-01-10,CUST648,SKINCARE,100,Anjali Singh,2024-01-10,Jane Smith,Client no-show,0
+2024-08-31,CUST452,WAXING,120,Ravi Kumar,2024-08-31,Sofia Chen,Service issue,0
+2024-09-10,CUST685,PEDICURE,35,Yuki Tanaka,2023-11-03,Li Wei,Rescheduled,312
+2023-11-04,CUST249,EYEBROWTHREADING,60,Sarah Wilson,2023-11-04,Michael Brown,Rescheduled,0
+2024-08-16,CUST067,MASSAGE,45,Emily Davis,2024-08-16,Sofia Chen,Rescheduled,0
+2024-03-03,CUST655,SKINCARE,55,Priya Sharma,2024-03-03,Yuki Tanaka,Staff unavailable,0
+2024-09-26,CUST432,EYEBROWTHREADING,15,Kunal Joshi,2024-09-26,Ravi Kumar,Rescheduled,0
+2024-02-05,CUST295,PEDICURE,80,Mei Ling,2024-02-05,Sarah Wilson,Staff unavailable,0
+2024-03-04,CUST327,BODYSCRUB,50,John Doe,2024-03-04,Anjali Singh,Client no-show,0
+2024-08-26,CUST887,MASSAGE,70,John Doe,2024-05-03,Anjali Singh,Client no-show,115
+2024-07-15,CUST209,EYEBROWTHREADING,55,John Doe,2024-04-15,Priya Sharma,Service issue,91
+2024-08-22,CUST336,WAXING,30,Emily Davis,2024-08-22,Sofia Chen,Emergency closure,0
+2024-09-16,CUST407,MANICURE,70,Priya Sharma,2024-02-26,Takeshi Yamada,Client no-show,203
+2024-08-05,CUST512,HAIRCUT,80,Amit Patel,2024-03-22,Mei Ling,Emergency closure,136
+2024-08-19,CUST210,MANICURE,45,Anjali Singh,2023-12-14,Sarah Wilson,Emergency closure,249
+2024-10-11,CUST262,PEDICURE,85,Li Wei,2024-10-11,Anjali Singh,Service issue,0
+2024-10-07,CUST211,FACIAL,70,Emily Davis,2024-10-07,Sarah Wilson,Client canceled,0
+2024-09-07,CUST203,HAIRCUT,85,Sofia Chen,2024-09-07,Jane Smith,Client canceled,0
+2024-09-22,CUST421,HAIRSTYLING,60,Takeshi Yamada,2024-09-22,Sarah Wilson,Double-booked,0
+2024-10-17,CUST105,WAXING,45,Takeshi Yamada,2024-08-28,Emily Davis,Service issue,50
+2024-03-12,CUST811,HAIRSTYLING,100,Anjali Singh,2024-03-12,Ravi Kumar,Double-booked,0
+2024-04-21,CUST720,MAKEUP,120,Jane Smith,2023-12-11,Anjali Singh,Double-booked,132
+2024-05-30,CUST677,MASSAGE,30,Takeshi Yamada,2024-05-17,Sarah Wilson,Client canceled,13
+2024-03-17,CUST372,NAILART,25,Mei Ling,2023-11-26,Sofia Chen,Service issue,112
+2024-01-21,CUST383,HAIRCUT,80,Emily Davis,2023-12-13,John Doe,Client canceled,39
+2024-07-16,CUST413,HAIRSTYLING,40,Sarah Wilson,2024-07-16,Emily Davis,Double-booked,0
+2024-05-14,CUST758,SKINCARE,25,Anjali Singh,2024-05-14,Emily Davis,Service issue,0
+2024-02-24,CUST720,HAIRSTYLING,70,Sofia Chen,2024-02-24,Mei Ling,Double-booked,0
+2024-03-13,CUST046,EYEBROWTHREADING,55,Jane Smith,2023-12-24,Sarah Wilson,Rescheduled,80
+2024-10-22,CUST687,MANICURE,80,Amit Patel,2024-10-22,Priya Sharma,Emergency closure,0
+2024-08-16,CUST700,EYEBROWTHREADING,120,Priya Sharma,2024-06-20,Mei Ling,Service issue,57
+2024-09-10,CUST135,MAKEUP,35,Sarah Wilson,2024-09-10,Kunal Joshi,Service issue,0
+2024-09-26,CUST106,HAIRCUT,120,Kunal Joshi,2023-12-23,Mei Ling,Emergency closure,278
+2024-01-17,CUST623,HAIRCUT,40,Anjali Singh,2023-10-27,John Doe,Double-booked,82
+2024-07-22,CUST174,MAKEUP,30,Mei Ling,2024-07-22,Jane Smith,Rescheduled,0
+2024-06-27,CUST596,PEDICURE,120,Priya Sharma,2024-06-27,Sarah Wilson,Staff unavailable,0
+2024-02-02,CUST579,EYEBROWTHREADING,50,Sarah Wilson,2024-02-02,Michael Brown,Emergency closure,0
+2023-12-06,CUST011,HAIRCOLOR,35,Jane Smith,2023-10-31,Yuki Tanaka,Client canceled,36
+2023-12-25,CUST874,SKINCARE,25,Sarah Wilson,2023-12-25,Anjali Singh,Double-booked,0
+2024-04-02,CUST720,SPATREATMENT,100,Yuki Tanaka,2024-04-02,Mei Ling,Emergency closure,0
+2024-04-03,CUST836,MANICURE,60,Priya Sharma,2024-04-03,Ravi Kumar,Emergency closure,0
+2024-07-10,CUST548,HAIRCUT,50,Michael Brown,2024-07-10,Amit Patel,Service issue,0
+2024-05-01,CUST362,PEDICURE,35,Yuki Tanaka,2024-05-01,Ravi Kumar,Client canceled,0
+2024-06-09,CUST108,NAILART,100,Li Wei,2024-01-03,John Doe,Client canceled,158
+2024-06-23,CUST190,SKINCARE,100,Ravi Kumar,2024-02-04,John Doe,Client canceled,140
+2024-06-07,CUST061,EYEBROWTHREADING,80,Amit Patel,2024-02-28,Sofia Chen,Emergency closure,100
+2023-12-12,CUST082,MANICURE,35,Takeshi Yamada,2023-12-12,Kunal Joshi,Staff unavailable,0
+2024-04-17,CUST648,NAILART,30,Jane Smith,2023-11-28,Kunal Joshi,Client no-show,141
+2024-04-28,CUST648,EYEBROWTHREADING,70,Priya Sharma,2024-04-28,Jane Smith,Double-booked,0
+2024-04-09,CUST983,HAIRSTYLING,40,Li Wei,2024-04-09,Priya Sharma,Client no-show,0
+2024-06-12,CUST597,NAILART,40,Li Wei,2024-06-12,Anjali Singh,Emergency closure,0
+2024-07-05,CUST892,MAKEUP,25,Kunal Joshi,2024-07-05,Li Wei,Client no-show,0
+2024-10-20,CUST472,PEDICURE,25,Sarah Wilson,2024-10-20,Mei Ling,Emergency closure,0
+2024-09-15,CUST320,MANICURE,40,Ravi Kumar,2024-07-14,Ravi Kumar,Client no-show,63
+2024-03-03,CUST986,BODYSCRUB,120,Li Wei,2023-12-14,Amit Patel,Client canceled,80
+2024-05-19,CUST647,MASSAGE,30,Ravi Kumar,2024-05-19,John Doe,Rescheduled,0
+2024-07-23,CUST873,MASSAGE,85,Yuki Tanaka,2024-05-30,John Doe,Client canceled,54
+2024-04-03,CUST410,MANICURE,120,Sarah Wilson,2024-03-15,Jane Smith,Client canceled,19
+2024-07-13,CUST322,NAILART,55,Priya Sharma,2024-06-03,Amit Patel,Service issue,40
+2024-05-22,CUST605,EYEBROWTHREADING,120,Yuki Tanaka,2024-05-22,Takeshi Yamada,Service issue,0
+2024-08-02,CUST957,PEDICURE,60,Mei Ling,2024-08-02,Amit Patel,Client no-show,0
+2024-09-25,CUST156,SPATREATMENT,15,Michael Brown,2024-09-25,Jane Smith,Emergency closure,0
+2024-03-17,CUST081,MASSAGE,70,Li Wei,2023-12-26,John Doe,Client canceled,82
+2024-08-14,CUST810,PEDICURE,60,Emily Davis,2024-08-14,Anjali Singh,Client no-show,0
+2024-10-15,CUST124,MASSAGE,80,Yuki Tanaka,2024-10-15,Sarah Wilson,Service issue,0
+2024-09-24,CUST426,HAIRSTYLING,15,Michael Brown,2024-09-24,Sarah Wilson,Rescheduled,0
+2024-07-19,CUST160,EYEBROWTHREADING,15,Sarah Wilson,2024-06-23,Jane Smith,Double-booked,26
+2024-06-13,CUST544,HAIRSTYLING,35,Kunal Joshi,2024-01-08,Amit Patel,Client no-show,157
+2024-08-24,CUST220,SKINCARE,30,Amit Patel,2024-08-24,Mei Ling,Rescheduled,0
+2024-05-22,CUST740,MASSAGE,30,Emily Davis,2024-05-22,Jane Smith,Double-booked,0
+2024-08-28,CUST820,BODYSCRUB,15,Jane Smith,2024-01-11,Anjali Singh,Staff unavailable,230
+2024-08-19,CUST064,BODYSCRUB,55,Takeshi Yamada,2024-08-19,Jane Smith,Client no-show,0
+2024-04-06,CUST826,HAIRSTYLING,120,Kunal Joshi,2024-04-06,Emily Davis,Client no-show,0
+2024-01-15,CUST178,MAKEUP,35,Michael Brown,2024-01-06,Kunal Joshi,Staff unavailable,9
+2024-05-18,CUST191,BODYSCRUB,70,Sarah Wilson,2024-04-28,Ravi Kumar,Staff unavailable,20
+2024-09-27,CUST091,MASSAGE,15,Michael Brown,2024-09-27,Amit Patel,Client no-show,0
+2024-03-23,CUST720,MANICURE,50,Takeshi Yamada,2023-11-28,Priya Sharma,Staff unavailable,116
+2024-02-02,CUST766,HAIRSTYLING,25,Li Wei,2023-12-25,Sofia Chen,Client canceled,39
+2024-03-19,CUST445,SKINCARE,25,Kunal Joshi,2023-11-15,Yuki Tanaka,Double-booked,125
+2024-10-23,CUST938,SPATREATMENT,60,Yuki Tanaka,2024-01-04,Sofia Chen,Double-booked,293
+2024-04-02,CUST474,SPATREATMENT,80,Priya Sharma,2024-04-02,Amit Patel,Double-booked,0
+2024-10-21,CUST465,FACIAL,45,Emily Davis,2024-03-25,Priya Sharma,Client canceled,210
+2024-09-14,CUST973,NAILART,45,Sofia Chen,2024-04-07,Li Wei,Emergency closure,160
+2024-09-16,CUST155,EYEBROWTHREADING,25,Anjali Singh,2024-03-19,Anjali Singh,Staff unavailable,181
+2024-07-02,CUST077,BODYSCRUB,85,Michael Brown,2024-01-16,Emily Davis,Rescheduled,168
+2024-06-17,CUST089,BODYSCRUB,100,Takeshi Yamada,2024-06-17,Emily Davis,Staff unavailable,0
+2024-10-21,CUST892,NAILART,60,Jane Smith,2024-10-21,Yuki Tanaka,Client no-show,0
+2024-07-02,CUST318,HAIRCUT,45,Jane Smith,2024-07-02,John Doe,Service issue,0
+2024-09-12,CUST583,SKINCARE,25,John Doe,2024-01-01,Ravi Kumar,Double-booked,255
+2024-05-27,CUST840,HAIRCOLOR,80,Kunal Joshi,2024-05-27,Sarah Wilson,Staff unavailable,0
+2024-10-05,CUST496,HAIRSTYLING,45,Michael Brown,2024-10-05,Michael Brown,Rescheduled,0
+2024-05-03,CUST200,MAKEUP,120,Anjali Singh,2023-11-06,Anjali Singh,Client no-show,179
+2024-03-11,CUST615,SKINCARE,120,Mei Ling,2024-03-11,Yuki Tanaka,Client canceled,0
+2024-07-11,CUST196,WAXING,30,Takeshi Yamada,2023-11-09,Michael Brown,Emergency closure,245
+2024-03-04,CUST785,BODYSCRUB,55,Li Wei,2024-03-04,Takeshi Yamada,Client canceled,0
+2024-07-13,CUST208,EYEBROWTHREADING,30,Ravi Kumar,2024-07-13,Michael Brown,Rescheduled,0
+2024-08-05,CUST861,FACIAL,70,Yuki Tanaka,2024-06-07,Amit Patel,Client no-show,59
+2024-10-07,CUST336,SPATREATMENT,15,Priya Sharma,2024-04-06,Yuki Tanaka,Double-booked,184
+2024-09-30,CUST927,BODYSCRUB,50,Anjali Singh,2024-07-19,Sofia Chen,Staff unavailable,73
+2024-04-10,CUST619,FACIAL,30,Ravi Kumar,2023-11-30,Sofia Chen,Client no-show,132
+2023-11-11,CUST823,MASSAGE,45,Kunal Joshi,2023-10-28,Sarah Wilson,Emergency closure,14
+2024-07-30,CUST774,SKINCARE,85,Yuki Tanaka,2024-02-18,Yuki Tanaka,Client canceled,163
+2024-08-15,CUST489,MASSAGE,35,Ravi Kumar,2024-01-10,Amit Patel,Emergency closure,218
+2024-07-16,CUST383,HAIRCOLOR,25,Yuki Tanaka,2024-07-16,Michael Brown,Emergency closure,0
+2024-10-02,CUST902,MANICURE,35,Sofia Chen,2023-12-24,Priya Sharma,Rescheduled,283
+2024-07-10,CUST563,WAXING,80,John Doe,2024-01-24,Takeshi Yamada,Rescheduled,168
+2024-04-13,CUST150,SKINCARE,30,Anjali Singh,2024-04-13,Li Wei,Staff unavailable,0
+2024-09-17,CUST466,HAIRCUT,50,Kunal Joshi,2024-03-04,Kunal Joshi,Rescheduled,197
+2024-10-04,CUST711,HAIRCOLOR,80,Anjali Singh,2024-10-04,Mei Ling,Rescheduled,0
+2024-08-06,CUST150,PEDICURE,100,Sofia Chen,2024-08-06,Sofia Chen,Client no-show,0
+2024-07-31,CUST903,HAIRCUT,100,Michael Brown,2024-05-10,Anjali Singh,Double-booked,82
+2024-06-28,CUST041,HAIRSTYLING,35,Michael Brown,2024-06-28,Priya Sharma,Staff unavailable,0
+2024-08-04,CUST091,EYEBROWTHREADING,15,Michael Brown,2024-08-04,Anjali Singh,Client no-show,0
+2024-07-29,CUST218,SKINCARE,60,Amit Patel,2024-07-29,John Doe,Double-booked,0
+2024-08-27,CUST040,PEDICURE,15,Ravi Kumar,2024-08-27,Yuki Tanaka,Emergency closure,0
+2024-10-13,CUST801,PEDICURE,45,Amit Patel,2024-01-18,Jane Smith,Client no-show,269
+2024-09-15,CUST434,HAIRCOLOR,120,John Doe,2024-05-24,Mei Ling,Service issue,114
+2024-09-12,CUST167,NAILART,70,Priya Sharma,2023-12-13,Sofia Chen,Client no-show,274
+2024-07-10,CUST458,MANICURE,15,Sofia Chen,2024-07-10,Takeshi Yamada,Rescheduled,0
+2024-09-27,CUST655,SKINCARE,55,Kunal Joshi,2024-09-27,Emily Davis,Double-booked,0
+2024-05-11,CUST347,NAILART,70,Anjali Singh,2024-01-18,Sofia Chen,Staff unavailable,114
+2024-07-07,CUST512,HAIRCOLOR,70,Yuki Tanaka,2024-07-07,Priya Sharma,Staff unavailable,0
+2024-02-16,CUST993,HAIRSTYLING,50,Li Wei,2023-11-10,John Doe,Double-booked,98
+2024-06-19,CUST224,SPATREATMENT,30,Kunal Joshi,2023-12-10,Anjali Singh,Rescheduled,192
+2024-09-15,CUST640,BODYSCRUB,50,Ravi Kumar,2024-04-29,Michael Brown,Client canceled,139
+2023-12-04,CUST510,BODYSCRUB,70,Amit Patel,2023-10-27,Emily Davis,Client no-show,38
+2024-05-23,CUST739,MANICURE,80,Amit Patel,2024-05-23,Amit Patel,Rescheduled,0
+2024-05-14,CUST624,HAIRSTYLING,100,Sarah Wilson,2023-12-06,Ravi Kumar,Service issue,160
+2024-08-21,CUST842,MAKEUP,70,Amit Patel,2024-08-21,Michael Brown,Emergency closure,0
+2024-04-11,CUST496,MANICURE,50,Priya Sharma,2024-01-31,Ravi Kumar,Double-booked,71
+2024-01-03,CUST205,SKINCARE,85,Mei Ling,2024-01-03,Mei Ling,Client no-show,0
+2024-06-26,CUST479,SKINCARE,80,Anjali Singh,2024-06-26,Li Wei,Staff unavailable,0
+2024-06-20,CUST103,FACIAL,50,Mei Ling,2024-06-20,Jane Smith,Emergency closure,0
+2024-03-18,CUST168,NAILART,15,Yuki Tanaka,2023-12-28,Li Wei,Client canceled,81
+2024-07-12,CUST560,MAKEUP,25,Anjali Singh,2024-06-14,Emily Davis,Service issue,28
+2024-08-28,CUST970,BODYSCRUB,35,Sofia Chen,2024-07-19,Sarah Wilson,Staff unavailable,40
+2024-07-31,CUST666,PEDICURE,60,Anjali Singh,2024-07-31,Emily Davis,Double-booked,0
+2024-07-24,CUST716,NAILART,120,Mei Ling,2024-07-24,Li Wei,Client no-show,0
+2024-01-14,CUST515,WAXING,50,Kunal Joshi,2024-01-07,Sofia Chen,Double-booked,7
+2024-03-09,CUST586,SKINCARE,55,Anjali Singh,2024-03-07,Priya Sharma,Emergency closure,2
+2024-04-20,CUST736,EYEBROWTHREADING,60,Sofia Chen,2024-02-19,Anjali Singh,Client no-show,61
+2024-08-31,CUST067,HAIRSTYLING,85,Sofia Chen,2024-07-25,Sofia Chen,Rescheduled,37
+2024-09-02,CUST047,HAIRCUT,40,John Doe,2024-04-21,Sofia Chen,Client canceled,134
+2024-07-05,CUST690,MANICURE,50,Anjali Singh,2024-07-05,Priya Sharma,Rescheduled,0
+2024-09-11,CUST608,SKINCARE,25,Li Wei,2024-09-11,Priya Sharma,Rescheduled,0
+2024-08-26,CUST244,NAILART,60,Sarah Wilson,2024-08-26,Mei Ling,Double-booked,0
+2024-06-14,CUST129,MAKEUP,120,Michael Brown,2023-11-17,Michael Brown,Emergency closure,210
+2024-08-05,CUST543,EYEBROWTHREADING,70,Jane Smith,2024-04-12,Sarah Wilson,Client canceled,115
+2024-07-17,CUST863,NAILART,50,Sofia Chen,2024-01-15,Sarah Wilson,Client no-show,184
+2024-02-23,CUST663,HAIRCUT,30,Emily Davis,2024-02-17,Sofia Chen,Client no-show,6
+2024-09-10,CUST951,EYEBROWTHREADING,85,Michael Brown,2024-09-10,Ravi Kumar,Service issue,0
+2024-08-11,CUST010,WAXING,35,Priya Sharma,2024-08-11,Mei Ling,Staff unavailable,0
+2024-05-26,CUST814,HAIRCUT,25,Ravi Kumar,2023-11-08,Yuki Tanaka,Service issue,200
+2024-05-29,CUST269,HAIRCOLOR,45,Anjali Singh,2024-05-29,Yuki Tanaka,Service issue,0
+2024-08-27,CUST043,MASSAGE,45,Mei Ling,2024-08-27,Takeshi Yamada,Client no-show,0
+2024-08-07,CUST095,HAIRCOLOR,55,Jane Smith,2024-08-07,Sofia Chen,Double-booked,0
+2024-09-21,CUST044,BODYSCRUB,60,Emily Davis,2024-09-21,Jane Smith,Rescheduled,0
+2024-04-20,CUST782,NAILART,25,Michael Brown,2024-04-20,Anjali Singh,Emergency closure,0
+2024-09-09,CUST667,SKINCARE,80,Anjali Singh,2024-05-12,Priya Sharma,Rescheduled,120
+2024-10-06,CUST039,SKINCARE,120,John Doe,2024-07-09,Michael Brown,Rescheduled,89
+2024-10-05,CUST931,SKINCARE,35,Ravi Kumar,2024-10-05,Amit Patel,Client canceled,0
+2024-10-14,CUST999,MASSAGE,70,Jane Smith,2023-12-14,Priya Sharma,Client no-show,305
+2024-06-29,CUST404,HAIRCOLOR,50,Sarah Wilson,2024-03-28,Jane Smith,Emergency closure,93
+2024-08-21,CUST476,MASSAGE,50,Yuki Tanaka,2023-11-05,Ravi Kumar,Double-booked,290
+2024-07-16,CUST180,SPATREATMENT,45,John Doe,2023-12-25,Emily Davis,Client canceled,204
+2024-04-04,CUST055,NAILART,50,Emily Davis,2024-02-25,Kunal Joshi,Staff unavailable,39
+2024-04-11,CUST264,MASSAGE,35,Priya Sharma,2023-12-04,Emily Davis,Double-booked,129
+2024-09-24,CUST618,PEDICURE,30,Jane Smith,2024-09-24,Li Wei,Service issue,0
+2024-04-21,CUST083,MANICURE,40,John Doe,2024-02-17,Jane Smith,Double-booked,64
+2024-10-07,CUST801,MANICURE,55,Ravi Kumar,2024-02-29,Li Wei,Double-booked,221
+2024-02-18,CUST467,PEDICURE,100,Sarah Wilson,2024-01-03,Sofia Chen,Rescheduled,46
+2024-08-17,CUST259,EYEBROWTHREADING,15,John Doe,2024-07-10,Amit Patel,Double-booked,38
+2024-07-06,CUST800,FACIAL,55,Amit Patel,2024-07-06,John Doe,Service issue,0
+2024-03-16,CUST560,EYEBROWTHREADING,60,Sarah Wilson,2024-03-16,Priya Sharma,Service issue,0
+2024-08-29,CUST065,HAIRCUT,30,Yuki Tanaka,2024-08-29,John Doe,Client no-show,0
+2024-10-12,CUST266,MAKEUP,55,Emily Davis,2024-03-20,Ravi Kumar,Double-booked,206
+2024-07-09,CUST502,HAIRCUT,70,Priya Sharma,2024-07-09,Sofia Chen,Rescheduled,0
+2024-08-05,CUST444,MASSAGE,45,Ravi Kumar,2024-06-07,Sarah Wilson,Double-booked,59
+2024-03-15,CUST548,HAIRCOLOR,85,Li Wei,2024-03-15,Priya Sharma,Staff unavailable,0
+2024-09-23,CUST419,HAIRCOLOR,60,Anjali Singh,2024-09-23,Li Wei,Staff unavailable,0
+2024-06-19,CUST479,MANICURE,50,Mei Ling,2024-04-15,Sarah Wilson,Rescheduled,65
+2024-02-22,CUST776,HAIRSTYLING,25,Takeshi Yamada,2024-02-22,Michael Brown,Client no-show,0
+2024-03-19,CUST910,EYEBROWTHREADING,70,Kunal Joshi,2023-11-24,Takeshi Yamada,Client no-show,116
+2024-07-27,CUST891,SPATREATMENT,60,Kunal Joshi,2024-07-27,Amit Patel,Service issue,0
+2024-09-23,CUST921,NAILART,85,Mei Ling,2023-12-02,Takeshi Yamada,Service issue,296
+2024-04-13,CUST077,BODYSCRUB,120,Takeshi Yamada,2024-04-13,Amit Patel,Client canceled,0
+2024-06-09,CUST376,WAXING,50,Mei Ling,2023-11-03,Emily Davis,Rescheduled,219
+2024-03-19,CUST293,HAIRCOLOR,55,Jane Smith,2024-03-19,Mei Ling,Double-booked,0
+2024-07-07,CUST049,NAILART,55,Emily Davis,2024-04-26,Priya Sharma,Emergency closure,72
+2024-08-25,CUST281,WAXING,60,Ravi Kumar,2024-08-25,Li Wei,Rescheduled,0
+2024-07-11,CUST093,NAILART,25,Sarah Wilson,2024-07-11,Takeshi Yamada,Client canceled,0
+2024-03-27,CUST543,MASSAGE,120,Jane Smith,2024-03-20,Ravi Kumar,Service issue,7
+2024-05-08,CUST824,WAXING,50,Emily Davis,2024-05-08,John Doe,Rescheduled,0
+2024-08-10,CUST192,BODYSCRUB,85,Anjali Singh,2024-04-17,Yuki Tanaka,Rescheduled,115
+2024-09-02,CUST360,NAILART,40,Amit Patel,2024-09-02,Kunal Joshi,Service issue,0
+2024-08-20,CUST537,PEDICURE,55,Kunal Joshi,2024-02-22,Ravi Kumar,Client canceled,180
+2024-09-14,CUST421,BODYSCRUB,85,Ravi Kumar,2024-09-14,Sarah Wilson,Service issue,0
+2024-02-09,CUST230,WAXING,30,Mei Ling,2024-02-09,Sarah Wilson,Client no-show,0
+2024-07-21,CUST258,BODYSCRUB,55,John Doe,2024-07-21,Takeshi Yamada,Double-booked,0
+2024-04-29,CUST521,NAILART,85,Li Wei,2023-12-30,Kunal Joshi,Service issue,121
+2024-05-24,CUST180,FACIAL,80,Ravi Kumar,2024-05-24,Jane Smith,Client canceled,0
+2024-08-12,CUST422,NAILART,45,Sofia Chen,2024-08-12,Michael Brown,Staff unavailable,0
+2024-10-21,CUST239,NAILART,15,Priya Sharma,2024-03-03,Priya Sharma,Client no-show,232
+2024-10-04,CUST963,MASSAGE,35,Takeshi Yamada,2024-07-10,Amit Patel,Staff unavailable,86
+2024-07-07,CUST187,EYEBROWTHREADING,45,Emily Davis,2024-02-21,Anjali Singh,Emergency closure,137
+2024-01-08,CUST561,PEDICURE,15,Michael Brown,2024-01-08,Yuki Tanaka,Service issue,0
+2024-05-08,CUST678,SPATREATMENT,70,Anjali Singh,2024-01-11,Li Wei,Client no-show,118
+2024-04-02,CUST982,HAIRCOLOR,85,Amit Patel,2023-11-22,Ravi Kumar,Double-booked,132
+2024-09-20,CUST063,HAIRCUT,15,Anjali Singh,2024-08-27,Li Wei,Service issue,24
+2024-03-17,CUST276,EYEBROWTHREADING,50,Ravi Kumar,2024-02-12,Sarah Wilson,Double-booked,34
+2023-12-24,CUST282,HAIRCUT,40,Kunal Joshi,2023-12-24,Mei Ling,Rescheduled,0
+2024-09-19,CUST149,MASSAGE,80,Takeshi Yamada,2024-01-20,Emily Davis,Staff unavailable,243
+2024-05-25,CUST913,PEDICURE,30,Michael Brown,2023-12-23,John Doe,Client no-show,154
+2024-10-23,CUST256,SKINCARE,85,Sofia Chen,2024-10-23,Michael Brown,Double-booked,0
+2024-10-15,CUST511,NAILART,30,Sarah Wilson,2024-10-15,Mei Ling,Client canceled,0
+2024-05-21,CUST587,SKINCARE,25,John Doe,2024-05-21,Michael Brown,Double-booked,0
+2024-07-17,CUST955,SKINCARE,55,Michael Brown,2024-05-02,Jane Smith,Client canceled,76
+2024-08-11,CUST139,MAKEUP,85,Emily Davis,2024-05-16,Anjali Singh,Service issue,87
+2024-08-18,CUST723,MANICURE,35,Mei Ling,2024-08-18,Takeshi Yamada,Client no-show,0
+2024-10-01,CUST391,SKINCARE,85,Sofia Chen,2024-10-01,Takeshi Yamada,Double-booked,0
+2024-04-17,CUST025,HAIRCOLOR,60,John Doe,2024-04-17,Sarah Wilson,Emergency closure,0
+2024-03-28,CUST136,FACIAL,40,Li Wei,2024-03-28,Emily Davis,Double-booked,0
+2024-07-08,CUST712,MANICURE,60,Amit Patel,2024-07-08,Kunal Joshi,Emergency closure,0
+2024-02-02,CUST224,MASSAGE,85,Mei Ling,2024-02-02,Priya Sharma,Client no-show,0
+2024-10-04,CUST042,EYEBROWTHREADING,80,Ravi Kumar,2024-10-03,Kunal Joshi,Double-booked,1
+2024-09-18,CUST519,FACIAL,15,Michael Brown,2023-12-23,Mei Ling,Client canceled,270
+2024-02-04,CUST986,BODYSCRUB,30,Kunal Joshi,2024-02-04,Michael Brown,Double-booked,0
+2024-09-04,CUST965,WAXING,80,John Doe,2024-09-04,Amit Patel,Staff unavailable,0
+2024-04-29,CUST872,MAKEUP,85,Priya Sharma,2024-04-29,Jane Smith,Service issue,0
+2024-07-06,CUST990,FACIAL,15,Jane Smith,2023-11-10,Amit Patel,Rescheduled,239
+2024-09-21,CUST666,SPATREATMENT,30,Priya Sharma,2024-09-21,Emily Davis,Client canceled,0
+2024-01-14,CUST710,SKINCARE,15,Sarah Wilson,2024-01-14,Priya Sharma,Staff unavailable,0
+2024-03-17,CUST825,MASSAGE,35,Priya Sharma,2024-03-05,Priya Sharma,Emergency closure,12
+2024-06-02,CUST043,HAIRSTYLING,40,Li Wei,2024-02-19,Mei Ling,Service issue,104
+2024-06-13,CUST152,WAXING,45,Sarah Wilson,2024-02-16,Li Wei,Client no-show,118
+2024-06-28,CUST029,HAIRCUT,120,Sofia Chen,2024-06-28,Jane Smith,Client canceled,0
+2024-05-07,CUST264,HAIRCOLOR,70,Amit Patel,2024-05-07,Yuki Tanaka,Rescheduled,0
+2024-06-24,CUST723,HAIRCUT,80,Sofia Chen,2024-06-24,Priya Sharma,Service issue,0
+2024-09-18,CUST058,FACIAL,55,Jane Smith,2024-09-18,Priya Sharma,Emergency closure,0
+2024-10-06,CUST234,HAIRCUT,80,Emily Davis,2024-05-09,Mei Ling,Rescheduled,150
+2024-07-28,CUST013,SPATREATMENT,120,Amit Patel,2024-07-28,Sarah Wilson,Client no-show,0
+2024-10-09,CUST961,MASSAGE,45,Priya Sharma,2024-07-03,Sofia Chen,Client no-show,98
+2024-02-25,CUST021,BODYSCRUB,100,Kunal Joshi,2024-02-25,Jane Smith,Emergency closure,0
+2024-03-20,CUST906,EYEBROWTHREADING,50,Anjali Singh,2024-01-18,Amit Patel,Client canceled,62
+2024-10-16,CUST713,HAIRCOLOR,35,Emily Davis,2024-03-20,Emily Davis,Emergency closure,210
+2024-03-17,CUST009,SPATREATMENT,85,Amit Patel,2024-03-17,Priya Sharma,Double-booked,0
+2024-06-24,CUST311,SPATREATMENT,35,Amit Patel,2024-06-24,Priya Sharma,Client no-show,0
+2024-02-24,CUST933,HAIRCUT,120,Jane Smith,2024-02-24,Takeshi Yamada,Service issue,0
+2024-02-04,CUST446,SKINCARE,85,Ravi Kumar,2024-02-04,Anjali Singh,Double-booked,0
+2024-05-11,CUST346,HAIRCUT,55,Priya Sharma,2024-05-11,Sarah Wilson,Staff unavailable,0
+2024-04-18,CUST571,FACIAL,60,Jane Smith,2024-03-25,Priya Sharma,Rescheduled,24
+2024-04-27,CUST127,EYEBROWTHREADING,15,Amit Patel,2023-11-01,Sofia Chen,Double-booked,178
+2024-06-15,CUST934,MANICURE,50,John Doe,2024-06-15,Anjali Singh,Rescheduled,0
+2024-10-20,CUST173,HAIRCUT,40,Emily Davis,2024-08-22,Takeshi Yamada,Emergency closure,59
+2024-02-02,CUST781,MASSAGE,40,Jane Smith,2024-02-02,John Doe,Double-booked,0
+2024-09-24,CUST877,HAIRSTYLING,120,Ravi Kumar,2024-08-12,Sarah Wilson,Emergency closure,43
+2024-02-07,CUST670,HAIRCOLOR,35,Takeshi Yamada,2023-12-29,Emily Davis,Staff unavailable,40
+2024-09-26,CUST246,NAILART,40,Michael Brown,2024-09-12,Michael Brown,Client no-show,14
+2024-03-09,CUST744,HAIRCUT,55,Sofia Chen,2024-03-09,Jane Smith,Staff unavailable,0
+2024-07-23,CUST381,MASSAGE,100,Amit Patel,2024-05-31,Mei Ling,Client no-show,53
+2024-05-31,CUST359,MASSAGE,80,Priya Sharma,2024-05-31,Emily Davis,Emergency closure,0
+2024-04-26,CUST742,HAIRCOLOR,25,Anjali Singh,2024-04-26,Yuki Tanaka,Client no-show,0
+2024-10-18,CUST581,MANICURE,55,Michael Brown,2024-10-18,Jane Smith,Rescheduled,0
+2024-05-15,CUST106,MASSAGE,85,Sarah Wilson,2024-01-04,Anjali Singh,Service issue,132
+2024-04-27,CUST851,HAIRSTYLING,70,Kunal Joshi,2024-03-11,Li Wei,Staff unavailable,47
+2024-09-10,CUST423,MASSAGE,120,Kunal Joshi,2024-06-19,Mei Ling,Double-booked,83
+2024-06-11,CUST252,MASSAGE,60,Yuki Tanaka,2024-06-11,Ravi Kumar,Staff unavailable,0
+2023-11-08,CUST318,MASSAGE,15,Yuki Tanaka,2023-10-29,Amit Patel,Rescheduled,10
+2024-01-30,CUST720,BODYSCRUB,70,Mei Ling,2023-11-25,John Doe,Client no-show,66
+2024-03-24,CUST297,BODYSCRUB,15,Ravi Kumar,2024-03-24,Sarah Wilson,Rescheduled,0
+2024-08-21,CUST426,MANICURE,30,Anjali Singh,2023-12-04,Priya Sharma,Client canceled,261
+2024-10-20,CUST001,HAIRCUT,70,Takeshi Yamada,2024-01-03,Li Wei,Client canceled,291
+2024-06-15,CUST875,MASSAGE,25,Takeshi Yamada,2024-06-15,Takeshi Yamada,Double-booked,0
+2024-10-12,CUST464,MAKEUP,35,Mei Ling,2024-07-06,Yuki Tanaka,Rescheduled,98
+2024-05-22,CUST195,EYEBROWTHREADING,100,Ravi Kumar,2024-02-01,Li Wei,Emergency closure,111
+2024-10-14,CUST077,MAKEUP,80,Priya Sharma,2024-03-20,Emily Davis,Double-booked,208
+2024-08-22,CUST664,HAIRCUT,80,John Doe,2024-08-22,John Doe,Emergency closure,0
+2024-10-03,CUST256,MANICURE,100,Priya Sharma,2024-10-03,Michael Brown,Double-booked,0
+2024-06-25,CUST324,SKINCARE,50,Sofia Chen,2024-06-25,Kunal Joshi,Client canceled,0
+2024-08-30,CUST800,SKINCARE,30,Michael Brown,2024-08-30,Jane Smith,Double-booked,0
+2024-07-12,CUST584,PEDICURE,15,Emily Davis,2024-07-12,Jane Smith,Client canceled,0
+2024-08-26,CUST425,MAKEUP,25,Takeshi Yamada,2023-12-24,Emily Davis,Client no-show,246
+2024-01-12,CUST100,HAIRCUT,40,Kunal Joshi,2023-12-27,Sofia Chen,Emergency closure,16
+2024-08-10,CUST899,HAIRCUT,70,Ravi Kumar,2023-12-09,Sofia Chen,Rescheduled,245
+2024-09-22,CUST761,WAXING,30,Priya Sharma,2024-01-23,Priya Sharma,Double-booked,243
+2024-06-12,CUST151,FACIAL,55,Emily Davis,2024-06-01,Yuki Tanaka,Client canceled,11
+2024-09-17,CUST880,NAILART,120,Sofia Chen,2024-07-30,Ravi Kumar,Staff unavailable,49
+2024-09-15,CUST357,WAXING,70,Amit Patel,2023-12-04,Amit Patel,Emergency closure,286
+2024-06-14,CUST121,HAIRSTYLING,25,Sarah Wilson,2024-06-14,Mei Ling,Double-booked,0
+2024-03-06,CUST663,BODYSCRUB,60,Michael Brown,2024-02-19,Michael Brown,Service issue,16
+2024-09-20,CUST458,BODYSCRUB,60,Sofia Chen,2024-09-20,Priya Sharma,Client no-show,0
+2024-10-17,CUST062,FACIAL,85,Sofia Chen,2024-10-17,John Doe,Client no-show,0
+2024-08-28,CUST882,HAIRCOLOR,30,Priya Sharma,2024-07-25,Sofia Chen,Staff unavailable,34
+2024-08-27,CUST522,HAIRCOLOR,35,John Doe,2024-08-27,Ravi Kumar,Client canceled,0
+2024-09-24,CUST940,MANICURE,25,Mei Ling,2024-09-24,Ravi Kumar,Double-booked,0
+2024-09-20,CUST869,SPATREATMENT,25,Takeshi Yamada,2024-09-20,Yuki Tanaka,Emergency closure,0
+2024-04-18,CUST990,FACIAL,100,Sarah Wilson,2024-04-18,Emily Davis,Client canceled,0
+2024-08-15,CUST837,NAILART,55,Michael Brown,2024-08-15,Michael Brown,Client no-show,0
+2024-03-29,CUST762,HAIRCUT,35,Amit Patel,2024-03-29,Anjali Singh,Client canceled,0
+2024-04-20,CUST945,HAIRCOLOR,55,Amit Patel,2023-12-04,Mei Ling,Client no-show,138
+2024-05-08,CUST791,NAILART,15,Jane Smith,2024-05-08,Yuki Tanaka,Client canceled,0
+2024-03-27,CUST830,MASSAGE,15,Sofia Chen,2023-12-04,Amit Patel,Staff unavailable,114
+2024-10-16,CUST906,MAKEUP,40,Ravi Kumar,2023-11-30,Yuki Tanaka,Rescheduled,321
+2024-09-01,CUST661,MAKEUP,85,John Doe,2024-01-17,Yuki Tanaka,Staff unavailable,228
+2024-01-09,CUST451,SPATREATMENT,80,Sarah Wilson,2024-01-02,Sarah Wilson,Staff unavailable,7
+2024-09-19,CUST615,EYEBROWTHREADING,60,Priya Sharma,2024-09-19,Emily Davis,Rescheduled,0
+2024-02-06,CUST775,HAIRCUT,120,Amit Patel,2024-02-06,Mei Ling,Rescheduled,0
+2024-09-07,CUST418,HAIRSTYLING,15,Michael Brown,2024-09-07,Sarah Wilson,Double-booked,0
+2024-10-14,CUST639,MASSAGE,35,Jane Smith,2024-03-03,Sarah Wilson,Emergency closure,225
+2024-05-19,CUST900,MASSAGE,25,Kunal Joshi,2024-05-19,Takeshi Yamada,Emergency closure,0
+2024-10-09,CUST046,MAKEUP,120,Takeshi Yamada,2024-07-01,Michael Brown,Double-booked,100
+2024-01-06,CUST686,FACIAL,45,Michael Brown,2024-01-06,Takeshi Yamada,Staff unavailable,0
+2024-08-02,CUST895,SPATREATMENT,55,John Doe,2024-01-19,Michael Brown,Staff unavailable,196
+2024-08-31,CUST505,MANICURE,15,Ravi Kumar,2024-08-31,Priya Sharma,Client no-show,0
+2024-01-30,CUST884,HAIRSTYLING,25,Jane Smith,2023-10-30,John Doe,Client no-show,92
+2024-03-11,CUST278,HAIRCOLOR,15,Kunal Joshi,2023-11-30,Ravi Kumar,Emergency closure,102
+2024-10-21,CUST007,NAILART,60,Jane Smith,2024-06-04,Mei Ling,Double-booked,139
+2024-04-23,CUST562,FACIAL,45,Mei Ling,2024-04-23,Emily Davis,Service issue,0
+2024-01-29,CUST887,HAIRCOLOR,70,Sarah Wilson,2024-01-29,Priya Sharma,Service issue,0
+2024-05-10,CUST785,FACIAL,15,Jane Smith,2023-11-06,Kunal Joshi,Double-booked,186
+2024-08-05,CUST832,FACIAL,35,Li Wei,2024-05-28,Yuki Tanaka,Client no-show,69
+2024-10-01,CUST850,FACIAL,15,Mei Ling,2023-12-19,Jane Smith,Emergency closure,287
+2024-06-04,CUST693,MAKEUP,80,Mei Ling,2024-01-20,Emily Davis,Emergency closure,136
+2024-06-07,CUST890,SPATREATMENT,120,John Doe,2024-01-28,John Doe,Client no-show,131
+2024-08-13,CUST777,MANICURE,120,Li Wei,2024-08-13,Amit Patel,Service issue,0
+2024-02-22,CUST864,FACIAL,60,Emily Davis,2024-02-21,Li Wei,Client canceled,1
+2024-04-07,CUST694,PEDICURE,35,Michael Brown,2023-12-30,Li Wei,Client canceled,99
+2024-04-06,CUST532,EYEBROWTHREADING,45,Takeshi Yamada,2024-04-06,Ravi Kumar,Client no-show,0
+2024-07-01,CUST832,HAIRCOLOR,100,Ravi Kumar,2024-07-01,Li Wei,Client canceled,0
+2024-07-11,CUST082,HAIRCUT,35,Anjali Singh,2024-07-11,Li Wei,Rescheduled,0
+2024-01-23,CUST154,WAXING,120,Michael Brown,2023-12-18,Jane Smith,Double-booked,36
+2024-07-31,CUST621,NAILART,80,Jane Smith,2024-07-31,Sofia Chen,Double-booked,0
+2024-04-14,CUST385,MAKEUP,70,Ravi Kumar,2024-04-14,Takeshi Yamada,Client no-show,0
+2024-06-28,CUST216,HAIRSTYLING,60,Amit Patel,2024-06-28,Amit Patel,Staff unavailable,0
+2024-09-28,CUST185,BODYSCRUB,100,Emily Davis,2024-09-28,Takeshi Yamada,Service issue,0
