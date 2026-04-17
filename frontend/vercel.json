@@ -4,8 +4,5 @@
   "framework": "vite",
   "env": {
     "VITE_API_BASE_URL": "@api_base_url"
-  },
-  "env_descriptions": {
-    "VITE_API_BASE_URL": "Base URL for backend API (e.g., https://your-api.onrender.com/api)"
   }
 }
