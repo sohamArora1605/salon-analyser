@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     app_env: str = "local"
     api_host: str = "0.0.0.0"
     api_port: int = 8000
-    backend_cors_origins: str = "http://localhost:5173,http://localhost:3000"
+    backend_cors_origins: str = "https://salon-analyser.vercel.app,http://localhost:5173,http://localhost:3000"
 
     database_url: str = Field(default="")
 
