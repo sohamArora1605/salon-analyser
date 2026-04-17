@@ -26,4 +26,6 @@ services:
         sync: false
       - key: SUPABASE_S3_SECRET_ACCESS_KEY
         sync: false
+      - key: BACKEND_CORS_ORIGINS
+        sync: false
 
