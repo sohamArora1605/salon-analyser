@@ -420,7 +420,7 @@ def eda() -> dict[str, list[dict]]:
                 to_char(appointment_date, 'Mon') as label,
                 extract(month from appointment_date)::int as sort_order,
                 count(*) as appointments,
-                count(distinct appointment_id) as unique_slots
+                count(distinct id) as unique_slots
             from appointments
             where appointment_date is not null
             group by label, sort_order
@@ -466,22 +466,7 @@ def eda() -> dict[str, list[dict]]:
             order by inventory_cost desc
             """
         ),
-        "appointment_duration_dist": fetch_all(
-            """
-            select
-                case
-                    when extract(hour from (appointment_end_time - appointment_time)) < 1 then '< 1 hour'
-                    when extract(hour from (appointment_end_time - appointment_time)) < 2 then '1-2 hours'
-                    when extract(hour from (appointment_end_time - appointment_time)) < 3 then '2-3 hours'
-                    else '3+ hours'
-                end as label,
-                count(*) as appointments
-            from appointments
-            where appointment_time is not null and appointment_end_time is not null
-            group by label
-            order by count(*) desc
-            """
-        ),
+
         "client_frequency_segments": fetch_all(
             """
             select
@@ -494,9 +479,9 @@ def eda() -> dict[str, list[dict]]:
                 count(*) as clients,
                 avg(visit_count)::float as avg_visits
             from (
-                select client_id, count(*) as visit_count
+                select client_code, count(*) as visit_count
                 from appointments
-                group by client_id
+                group by client_code
             ) client_stats
             group by label
             order by count(*) desc
@@ -507,9 +492,9 @@ def eda() -> dict[str, list[dict]]:
             select
                 staff as label,
                 count(*) as cancellations,
-                round((count(*)::float / (
+                round((count(*)::numeric / coalesce(nullif((
                     select count(*) from appointments where staff = cancellations.staff
-                )) * 100, 2)::float as cancel_rate
+                ), 0), 1)) * 100, 2)::float as cancel_rate
             from cancellations
             where staff is not null
             group by staff
