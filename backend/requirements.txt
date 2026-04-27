@@ -3,7 +3,7 @@ uvicorn[standard]==0.34.0
 pydantic-settings==2.8.1
 python-dotenv==1.0.1
 sqlalchemy==2.0.39
-psycopg[binary]==3.2.6
+pymongo==4.5.0
 pandas==2.2.3
 python-multipart==0.0.20
 boto3==1.37.18

@@ -5,20 +5,18 @@ from datetime import UTC, datetime
 from pathlib import PurePosixPath
 from uuid import uuid4
 
-from sqlalchemy import text
-
 from app.core.config import settings
-from app.db.postgres import get_engine
+from app.db.mongo import get_client
 from app.services.storage import get_s3_client
 
 
 def test_database() -> None:
-    print("Testing Supabase Postgres...")
-    engine = get_engine()
-    with engine.connect() as connection:
-        result = connection.execute(text("select 1 as ok")).scalar_one()
-    if result != 1:
-        raise RuntimeError("Database returned an unexpected result.")
+    print("Testing MongoDB connection...")
+    client = get_client()
+    # ping the server
+    result = client.admin.command("ping")
+    if result.get("ok") != 1.0:
+        raise RuntimeError("MongoDB ping failed")
     print("Database connection OK")
 
 

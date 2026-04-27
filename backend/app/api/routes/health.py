@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 
 from app.core.config import settings
-from app.db.postgres import ping_database
+from app.db.mongo import ping_database
 
 router = APIRouter(tags=["health"])
 

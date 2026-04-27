@@ -1,12 +1,11 @@
 from __future__ import annotations
 
+import datetime
 import pandas as pd
-from sqlalchemy import text
-from sqlalchemy.dialects.postgresql import JSONB
 
 from app.core.config import settings
 from app.data.manifest import DATASETS
-from app.db.postgres import get_engine
+from app.db.mongo import get_db
 
 
 def parse_date(series: pd.Series) -> pd.Series:
@@ -36,183 +35,192 @@ def clean_bool(series: pd.Series) -> pd.Series:
 
 
 def ingest_source_metadata(connection, file_name: str, domain: str, table: str, description: str, row_count: int) -> None:
-    connection.execute(
-        text(
-            """
-            insert into source_datasets (file_name, domain, target_table, description, row_count)
-            values (:file_name, :domain, :target_table, :description, :row_count)
-            on conflict (file_name) do update set
-                domain = excluded.domain,
-                target_table = excluded.target_table,
-                description = excluded.description,
-                row_count = excluded.row_count,
-                loaded_at = now()
-            """
-        ),
+    db = connection
+    db.source_datasets.replace_one(
+        {"file_name": file_name},
         {
             "file_name": file_name,
             "domain": domain,
             "target_table": table,
             "description": description,
             "row_count": row_count,
+            "loaded_at": pd.Timestamp.now().to_pydatetime(),
         },
+        upsert=True,
     )
 
 
 def ingest_frame(connection, table_name: str, frame: pd.DataFrame) -> None:
-    dtype = {"payload": JSONB} if "payload" in frame.columns else None
-    frame.to_sql(table_name, connection, if_exists="append", index=False, method="multi", chunksize=500, dtype=dtype)
+    db = connection
+    def _serialize(v):
+        try:
+            if pd.isna(v):
+                return None
+        except Exception:
+            pass
+        if isinstance(v, pd.Timestamp):
+            return v.to_pydatetime()
+        if isinstance(v, datetime.datetime):
+            return v
+        if isinstance(v, (datetime.date, datetime.time)):
+            # convert date/time to ISO string
+            return v.isoformat()
+        return v
+
+    records = (
+        frame.astype(object)
+        .where(pd.notna(frame), None)
+        .applymap(_serialize)
+        .to_dict(orient="records")
+    )
+    if records:
+        db[table_name].insert_many(records)
 
 
 def reset_target_tables(connection) -> None:
-    connection.execute(
-        text(
-            """
-            truncate table
-                source_datasets,
-                appointments,
-                cancellations,
-                no_shows,
-                products,
-                services,
-                receipt_transactions,
-                ml_seed_events
-            restart identity
-            """
-        )
-    )
+    db = connection
+    for name in [
+        "source_datasets",
+        "appointments",
+        "cancellations",
+        "no_shows",
+        "products",
+        "services",
+        "receipt_transactions",
+        "ml_seed_events",
+    ]:
+        if name in db.list_collection_names():
+            db[name].delete_many({})
 
 
 def main() -> None:
     raw_dir = settings.resolve_path(settings.data_raw_dir)
-    engine = get_engine()
+    db = get_db()
+    reset_target_tables(db)
+    for dataset in DATASETS:
+        path = raw_dir / dataset.file_name
+        if not path.exists():
+            print(f"Skipping missing file: {path}")
+            continue
 
-    with engine.begin() as connection:
-        reset_target_tables(connection)
-        for dataset in DATASETS:
-            path = raw_dir / dataset.file_name
-            if not path.exists():
-                print(f"Skipping missing file: {path}")
-                continue
+        frame = pd.read_csv(path)
+        ingest_source_metadata(
+            db,
+            dataset.file_name,
+            dataset.domain,
+            dataset.target_table,
+            dataset.description,
+            len(frame),
+        )
 
-            frame = pd.read_csv(path)
-            ingest_source_metadata(
-                connection,
-                dataset.file_name,
-                dataset.domain,
-                dataset.target_table,
-                dataset.description,
-                len(frame),
+        if dataset.file_name == "Future Bookings (All Clients)0.csv":
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "client_code": frame["Code"],
+                    "staff": frame["Staff"],
+                    "service_code": frame["Service"],
+                    "appointment_date": parse_date(frame["Date"]),
+                    "appointment_time": parse_time(frame["Time"]),
+                    "time_int": clean_int(frame["TimeInt"]),
+                }
             )
+            ingest_frame(db, "appointments", out)
 
-            if dataset.file_name == "Future Bookings (All Clients)0.csv":
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "client_code": frame["Code"],
-                        "staff": frame["Staff"],
-                        "service_code": frame["Service"],
-                        "appointment_date": parse_date(frame["Date"]),
-                        "appointment_time": parse_time(frame["Time"]),
-                        "time_int": clean_int(frame["TimeInt"]),
-                    }
-                )
-                ingest_frame(connection, "appointments", out)
+        elif dataset.file_name in {"Client Cancellations0.csv", "salon_noshow_data.csv"}:
+            client_column = "Client code" if "Client code" in frame.columns else "Code"
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "cancel_date": parse_date(frame["Cancel Date"]),
+                    "client_code": frame.get(client_column),
+                    "service_code": frame["Service"],
+                    "service_price": clean_optional_number(frame, "Service Price"),
+                    "staff": frame["Staff"],
+                    "booking_date": parse_date(frame["Booking Date"]),
+                    "canceled_by": frame.get("Canceled By"),
+                    "cancel_description": frame.get("Cancel Description"),
+                    "days_before": clean_int(frame["Days"]),
+                }
+            )
+            ingest_frame(db, "cancellations", out)
 
-            elif dataset.file_name in {"Client Cancellations0.csv", "salon_noshow_data.csv"}:
-                client_column = "Client code" if "Client code" in frame.columns else "Code"
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "cancel_date": parse_date(frame["Cancel Date"]),
-                        "client_code": frame.get(client_column),
-                        "service_code": frame["Service"],
-                        "service_price": clean_optional_number(frame, "Service Price"),
-                        "staff": frame["Staff"],
-                        "booking_date": parse_date(frame["Booking Date"]),
-                        "canceled_by": frame.get("Canceled By"),
-                        "cancel_description": frame.get("Cancel Description"),
-                        "days_before": clean_int(frame["Days"]),
-                    }
-                )
-                ingest_frame(connection, "cancellations", out)
+        elif dataset.file_name == "No-Show Report0.csv":
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "event_date": parse_date(frame["Date"]),
+                    "client_code": frame["Code"],
+                    "service_code": frame["Service"],
+                    "staff": frame["Staff"],
+                }
+            )
+            ingest_frame(db, "no_shows", out)
 
-            elif dataset.file_name == "No-Show Report0.csv":
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "event_date": parse_date(frame["Date"]),
-                        "client_code": frame["Code"],
-                        "service_code": frame["Service"],
-                        "staff": frame["Staff"],
-                    }
-                )
-                ingest_frame(connection, "no_shows", out)
+        elif dataset.file_name == "Product Listing (Retail)0.csv":
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "is_active": clean_bool(frame["IsActive"]),
+                    "product_code": frame["Code"],
+                    "description": frame["Description"],
+                    "supplier": frame["Supplier"],
+                    "brand": frame["Brand"],
+                    "category": frame["Category"],
+                    "price": clean_number(frame["Price"]),
+                    "on_hand": clean_number(frame["On Hand"]),
+                    "minimum_stock": clean_number(frame["Minimum"]),
+                    "maximum_stock": clean_number(frame["Maximum"]),
+                    "cost": clean_number(frame["Cost"]),
+                    "cogs": clean_number(frame["COG"]),
+                    "ytd": clean_number(frame["YTD"]),
+                    "is_package": clean_bool(frame["Package"]),
+                }
+            )
+            ingest_frame(db, "products", out)
 
-            elif dataset.file_name == "Product Listing (Retail)0.csv":
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "is_active": clean_bool(frame["IsActive"]),
-                        "product_code": frame["Code"],
-                        "description": frame["Description"],
-                        "supplier": frame["Supplier"],
-                        "brand": frame["Brand"],
-                        "category": frame["Category"],
-                        "price": clean_number(frame["Price"]),
-                        "on_hand": clean_number(frame["On Hand"]),
-                        "minimum_stock": clean_number(frame["Minimum"]),
-                        "maximum_stock": clean_number(frame["Maximum"]),
-                        "cost": clean_number(frame["Cost"]),
-                        "cogs": clean_number(frame["COG"]),
-                        "ytd": clean_number(frame["YTD"]),
-                        "is_package": clean_bool(frame["Package"]),
-                    }
-                )
-                ingest_frame(connection, "products", out)
+        elif dataset.file_name == "Service Listing0.csv":
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "is_active": clean_bool(frame["IsActive"]),
+                    "service_code": frame["Code"],
+                    "description": frame["Desc"],
+                    "category": frame["Cate"],
+                    "price": clean_number(frame["Price"]),
+                    "cost": clean_number(frame["Cost"]),
+                }
+            )
+            ingest_frame(db, "services", out)
 
-            elif dataset.file_name == "Service Listing0.csv":
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "is_active": clean_bool(frame["IsActive"]),
-                        "service_code": frame["Code"],
-                        "description": frame["Desc"],
-                        "category": frame["Cate"],
-                        "price": clean_number(frame["Price"]),
-                        "cost": clean_number(frame["Cost"]),
-                    }
-                )
-                ingest_frame(connection, "services", out)
+        elif dataset.file_name == "Receipt Transactions0.csv":
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "receipt_number": frame["Receipt"].astype(str),
+                    "transaction_date": parse_date(frame["Date"]),
+                    "description": frame["Description"],
+                    "client_code": frame["Client"],
+                    "staff": frame["Staff"],
+                    "quantity": clean_number(frame["Quantity"]),
+                    "amount": clean_number(frame["Amount"]),
+                    "gst": clean_number(frame["GST"]),
+                    "pst": clean_number(frame["PST"]),
+                }
+            )
+            ingest_frame(db, "receipt_transactions", out)
 
-            elif dataset.file_name == "Receipt Transactions0.csv":
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "receipt_number": frame["Receipt"].astype(str),
-                        "transaction_date": parse_date(frame["Date"]),
-                        "description": frame["Description"],
-                        "client_code": frame["Client"],
-                        "staff": frame["Staff"],
-                        "quantity": clean_number(frame["Quantity"]),
-                        "amount": clean_number(frame["Amount"]),
-                        "gst": clean_number(frame["GST"]),
-                        "pst": clean_number(frame["PST"]),
-                    }
-                )
-                ingest_frame(connection, "receipt_transactions", out)
+        else:
+            payload_frame = frame.astype(object).where(pd.notna(frame), None)
+            out = pd.DataFrame(
+                {
+                    "source_file": dataset.file_name,
+                    "payload": payload_frame.to_dict(orient="records"),
+                }
+            )
+            ingest_frame(db, "ml_seed_events", out)
 
-            else:
-                payload_frame = frame.astype(object).where(pd.notna(frame), None)
-                out = pd.DataFrame(
-                    {
-                        "source_file": dataset.file_name,
-                        "payload": payload_frame.to_dict(orient="records"),
-                    }
-                )
-                ingest_frame(connection, "ml_seed_events", out)
-
-            print(f"Ingested {dataset.file_name} -> {dataset.target_table}")
+        print(f"Ingested {dataset.file_name} -> {dataset.target_table}")
 
 
 if __name__ == "__main__":

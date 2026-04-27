@@ -608,30 +608,14 @@ function Dashboard({ data }) {
         <Panel title="Service Category Mix" note="Catalog shape by category.">
           <Donut data={eda.service_categories || []} labelKey="label" valueKey="services" interactive={true} />
         </Panel>
-        <Panel title="Revenue by Month" note="Monthly revenue trends and receipt counts.">
-          <Bars data={eda.revenue_by_month || []} labelKey="label" valueKey="revenue" valueLabel={(value) => currency.format(value)} interactive={true} />
-        </Panel>
-        <Panel title="Appointments by Month" note="Monthly appointment volume and distribution.">
-          <Bars data={eda.appointments_by_month || []} labelKey="label" valueKey="appointments" interactive={true} />
-        </Panel>
+        
         <Panel title="Cancel Notice" note="How early clients cancel.">
           <Bars data={eda.cancel_notice || []} labelKey="label" valueKey="cancellations" interactive={true} />
         </Panel>
         <Panel title="Stock Status" note="Retail inventory by reorder state.">
           <Donut data={eda.stock_status || []} labelKey="label" valueKey="products" interactive={true} />
         </Panel>
-        <Panel title="Top Staff Revenue" note="Revenue leaders by team member.">
-          <Bars data={eda.top_staff_revenue || []} labelKey="label" valueKey="revenue" valueLabel={(value) => currency.format(value)} limit={8} interactive={true} />
-        </Panel>
-        <Panel title="Product Category Inventory" note="Inventory value by product category.">
-          <Bars data={eda.product_category_inventory || []} labelKey="label" valueKey="inventory_cost" valueLabel={(value) => currency.format(value)} interactive={true} />
-        </Panel>
-        <Panel title="Cancellation Rate by Staff" note="Who has the highest cancellation rate.">
-          <Bars data={eda.cancellation_rate_by_staff || []} labelKey="label" valueKey="cancel_rate" valueLabel={(value) => `${number.format(value)}%`} interactive={true} />
-        </Panel>
-        <Panel title="Client Frequency" note="Customer segmentation by visit count.">
-          <Donut data={eda.client_frequency_segments || []} labelKey="label" valueKey="clients" interactive={true} />
-        </Panel>
+        
       </section>
 
       <section className="split">
@@ -666,7 +650,7 @@ function Dashboard({ data }) {
         <RiskList title="Risk By Staff" rows={ml.risk_by_staff || []} interactive={true} />
         <RiskList title="Risk By Time" rows={ml.risk_by_time || []} interactive={true} />
         <RiskList title="Risk By Service Type" rows={ml.risk_by_category || []} interactive={true} />
-        <RiskList title="Risk By Recency" rows={eda.no_show_by_recency || []} interactive={true} />
+        
       </section>
     </main>
   );

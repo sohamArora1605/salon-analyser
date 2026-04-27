@@ -19,6 +19,8 @@ class Settings(BaseSettings):
     backend_cors_origins: str = "https://salon-analyser.vercel.app,http://localhost:5173,http://localhost:5174,http://localhost:3000"
 
     database_url: str = Field(default="")
+    mongo_uri: str = Field(default="")
+    mongo_db: str = "salon"
 
     supabase_url: str = ""
     supabase_anon_key: str = ""
@@ -35,6 +37,7 @@ class Settings(BaseSettings):
 
     @field_validator(
         "database_url",
+        "mongo_uri",
         "supabase_url",
         "supabase_anon_key",
         "supabase_service_role_key",
@@ -64,7 +67,12 @@ class Settings(BaseSettings):
 
     @property
     def project_root(self) -> Path:
-        return Path(__file__).resolve().parents[3]
+        p = Path(__file__).resolve()
+        parents = p.parents
+        # prefer workspace root (one level above salon_platform). If path is shallower, fall back to the highest parent available.
+        if len(parents) >= 5:
+            return parents[4]
+        return parents[-1]
 
     def resolve_path(self, path: Path) -> Path:
         if path.is_absolute():
